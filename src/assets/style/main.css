@@ -130,7 +130,7 @@ p.uid:before {
     background: #1A1A1A;
     padding: 30px 40px;
 }
-#upload .makeStyles-large-4{
+#upload .MuiAvatar-root {
     border-color: #5ED3F0;
     width: 80px !important;
     height: 80px !important;
