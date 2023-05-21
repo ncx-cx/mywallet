@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: urbanist-regular;
+  src: url(./assets/fonts/Urbanist-Regular.ttf);
+}
+@font-face {
+  font-family: urbanist-light;
+  src: url(./assets/fonts/Urbanist-Light.ttf);
+}
+@font-face {
+  font-family: urbanist-medium;
+  src: url(./assets/fonts/Urbanist-Medium.ttf);
+}
+@font-face {
+  font-family: urbanist-extralight;
+  src: url(./assets/fonts/Urbanist-ExtraLight.ttf);
+}
+@font-face {
+  font-family: urbanist-semibold;
+  src: url(./assets/fonts/Urbanist-SemiBold.ttf);
+}
+@font-face {
+  font-family: urbanist-bold;
+  src: url(./assets/fonts/Urbanist-Bold.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: #000;
+  font-family: urbanist-regular !important;
+  margin: 0px;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/************************** Body Scroll Section Starts from here *************************/
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
-.App-link {
-  color: #61dafb;
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 50px;  
+}
+/************************** Body Scroll Section Ends from here *************************/
+
+h1, h2, h3, h4, h5, p{
+  color: #FFFFFF;
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+@media screen and (max-width: 800px){
+  .container{
+      max-width: inherit;
+      width: 100%;
+      padding: 0px 20px;
   }
 }
