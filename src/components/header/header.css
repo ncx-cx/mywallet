@@ -22,7 +22,7 @@
     padding: 0;
     width: 100%;
 }
-#header-row .css-hyum1k-MuiToolbar-root {
+#header-row .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular{
     min-height: 48px;
 }
 .logo-nav {
