@@ -145,7 +145,7 @@ p.uid:before {
     padding: 0px;
     width: fit-content;
 }
-#upload .makeStyles-root-1 {
+#upload .makeStyles-root-1, .jss1 {
     display: flex;
     align-items: center;
 }
