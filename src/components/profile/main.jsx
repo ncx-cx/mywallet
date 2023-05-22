@@ -1,8 +1,11 @@
 import React, {useState} from "react";
 import Svg from "../Svg";
-import AvatarPicker from "./avatarpicker";
-import Form from "./funds_pass";
-import NewForm from './new';
+import AvatarPicker from "../profile/forms/avatarpicker";
+import Form from "../profile/forms/withdraw-password-form";
+import NewForm from '../profile/forms/user-profile';
+import TwoFactorAuthentication from "./2FA";
+import WithdrawPassword from './password-settings';
+import HistoryTabs from "./history/main";
 
 function ProfileTab()
 {
@@ -53,6 +56,12 @@ function ProfileTab()
                     </div>
                 </div>
             </div>
+
+            <TwoFactorAuthentication />
+
+            <WithdrawPassword />
+
+            <HistoryTabs />
         </div>
     )
 }

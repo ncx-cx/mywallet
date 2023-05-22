@@ -1,6 +1,6 @@
 import React from "react";
 
-function Formnew()
+function UserProfileForm()
 {
     return(
         <div className="settings">
@@ -304,4 +304,4 @@ function Formnew()
         </div>
     )
 }
-export default Formnew;
+export default UserProfileForm;

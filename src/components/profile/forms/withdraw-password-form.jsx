@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Svg from "../Svg";
+import Svg from "../../Svg";
 
 function ShowAndHidePassword(){
 
