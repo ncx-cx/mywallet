@@ -10,7 +10,7 @@ function WithdrawalAddress()
         <div className="device-maanger whiteaddress">
             <a href="/" className="back-to-home">
                 <img src={Svg.backarrow} alt="ncx"/>
-                <h1>Security Device Manager</h1>
+                <h1>Withdraw Address Book</h1>
             </a>
             <p className="qwe-fsdf">Withdraw & Whitelist
                 <WhitelistProtection />

@@ -1,6 +1,8 @@
 import React from "react";
 import Svg from "../Svg";
+import '../../assets/style/main.css';
 import Button from '@mui/material/Button';
+import SupportTicketForm from "../../modals/support-ticket";
 
 
 function SupportMainPage()
@@ -12,7 +14,8 @@ function SupportMainPage()
                     <img src={Svg.backarrow} alt="ncx"/>
                     <h1>Support Ticket</h1>
                 </a>
-                <Button className="add_key"><img src={Svg.plus} alt="ncx"/> Add New Ticket</Button>
+                <SupportTicketForm />
+                {/* <Button className="add_key"><img src={Svg.plus} alt="ncx"/> Add New Ticket</Button> */}
             </div>
             <div className="secure-table">
                 <div className="head-er">

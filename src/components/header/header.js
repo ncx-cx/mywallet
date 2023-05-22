@@ -172,7 +172,7 @@ export default function Header() {
                   </div>
                 </div>
                 <a href="/"><img src={Svg.notification} alt="ncx" /></a>
-                <a href="/"><img src={Svg.help} alt="ncx" /></a>
+                <a href="/support"><img src={Svg.help} alt="ncx" /></a>
                 <div className="translate_lng">
                   <div id="tran_lang">
                     <img src={Svg.global} alt="ncx"/>

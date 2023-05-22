@@ -43,7 +43,7 @@ function ProfilePage()
                             <h1>Tab 2</h1>
                         </div>
                         <div className={toggleState === 3 ? "tab__cont  active" : "tab__cont"}>
-                            <h1>Tab 3</h1>
+                            <SecurityDevice />
                         </div>
                     </div>
                 </div>

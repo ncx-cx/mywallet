@@ -21,24 +21,25 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     margin: "auto",
-    width: "fit-content"
+    width: "fit-content",
+    alignitems: "center"
   },
   input: {
-    fontSize: 15
+    fontSize: 12
   },
   large: {
     width: theme.spacing(25),
     height: theme.spacing(25),
-    border: `4px solid ${theme.palette.primary.main}`
+    border: `2px solid #5ED3F0`
   }
 }));
 
 const EditIconButton = withStyles((theme) => ({
   root: {
-    width: 22,
-    height: 22,
+    width: 15,
+    height: 15,
     padding: 15,
-    border: `2px solid ${theme.palette.primary.main}`
+    border: `2px solid #5ED3F0`
   }
 }))(IconButton);
 
@@ -65,8 +66,8 @@ export const AvatarPicker = (props) => {
     fileObject.image().then((img) => {
       const canvas = document.createElement("canvas");
       const ctx = canvas.getContext("2d");
-      const maxWidth = 256;
-      const maxHeight = 256;
+      const maxWidth = 100;
+      const maxHeight = 100;
 
       const ratio = Math.min(maxWidth / img.width, maxHeight / img.height);
       const width = (img.width * ratio + 0.5) | 0;
@@ -100,7 +101,7 @@ export const AvatarPicker = (props) => {
         style={{
           display: "flex",
           justifyContent: "center",
-          margin: "20px 10px"
+          // margin: "20px 10px"
         }}
       >
         <div className={classes.root}>

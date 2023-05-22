@@ -6,7 +6,7 @@
 body.ReactModal__Body--open {
     overflow: hidden;
 }
-#applynow_form{
+#applynow_form, #support-ticket{
     width: 26% !important;
     background: #1A1A1A !important;
     border-radius: 5px !important;
@@ -229,4 +229,81 @@ button.get-code:hover{
     width: unset !important;
     min-width: 200px;
     max-width: 200px;
+}
+
+
+#support-ticket #upload .MuiAvatar-root{
+    width: 50px!important;
+    height: 50px !important;
+}
+#support-ticket .MuiBadge-root{
+    margin: 0px !important;
+}
+#support-ticket #upload button{
+    padding: 10px !important;
+}
+#support-ticket div#upload{
+    margin-bottom: 10px !important;
+}
+.profile-photo p.upload_prof {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    color: rgba(255,255,255,0.6);
+    font-weight: 400;
+}
+.profile-photo p.upload_prof span{
+    color: #CA3F64 !important;
+}
+#support-ticket .settings form .flex {
+    margin-top: 30px;
+    column-gap: 21px;
+}
+.slect-cate label {
+    display: block;
+    width: 100%;
+    color: #FFFFFF !important;
+    font-family: 'urbanist-medium';
+    font-size: 14px !important;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+    text-align: left;
+}
+.slect-cate select {
+    background: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    height: 45px;
+    padding: 0px 10px !important;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+.subject label, .textarea label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #FFFFFF !important;
+    font-family: 'urbanist-medium';
+    font-size: 14px !important;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+    text-align: left;
+}
+.subject label input, .textarea label textarea{
+    background: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    height: 45px;
+    padding: 0px 10px !important;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.textarea label textarea{
+    height: 80px;
+    padding-top: 10px !important;
 }

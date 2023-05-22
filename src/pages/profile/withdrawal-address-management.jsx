@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Myheader from '../../components/header/header';
 import WithdrawalAddress from '../../components/profile/device-manager/withdraw-address-management';
+import SecurityDevice from '../../components/profile/device-manager/device-manager';
 
 function WithdrawalAddressManagement()
 {
@@ -43,7 +44,7 @@ function WithdrawalAddressManagement()
                             <h1>Tab 2</h1>
                         </div>
                         <div className={toggleState === 3 ? "tab__cont  active" : "tab__cont"}>
-                            <h1>Tab 3</h1>
+                            <SecurityDevice />
                         </div>
                     </div>
                 </div>
