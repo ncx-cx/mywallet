@@ -567,7 +567,7 @@ a.back-to-home h1{
     font-weight: 400;
 }
 .add_key {
-    width: 160px !important;
+    width: 170px !important;
     height: 46px !important;
     background: #121212 !important;
     border: 1px solid #5ED3F0 !important;
@@ -661,4 +661,14 @@ p.qwe-fsdf {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+
+/* *********************************************************************** */
+.support_bdy h1.sprt {
+    font-size: 26px;
+    font-family: 'urbanist-semibold';
+    font-weight: 400;
+    margin-top: 65px;
+    margin-bottom: 20px;
 }
