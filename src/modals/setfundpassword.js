@@ -4,7 +4,7 @@ import './modal.css';
 import Svg from '../components/Svg';
 
 
-const ApplyNowModal = props => {
+const SetFundPassword = props => {
     const customStyles = {
         content: {
           top: '50%',
@@ -33,7 +33,7 @@ const ApplyNowModal = props => {
 
    return(
         <div>
-            <button className='open-modal' onClick={openModal}>Bound</button>
+            <button className='open-modal' onClick={openModal}>Set Immediately</button>
             <Modal
                 id="applynow_form"
                 isOpen={modalIsOpen}
@@ -46,23 +46,15 @@ const ApplyNowModal = props => {
                 <div className="heading_corss">
                     <div className='hed'>
                         <button onClick={closeModal}><img src={Svg.close} alt="ncx"/></button>
-                        <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Bind Mobile Phone</h2>
+                        <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Set Fund Password</h2>
                     </div>
 
                     <div class="container">
                         <form>
                             <div class="form-group">
-                                <label>Mobile Number</label>
-                                <input type="text" id="mobile_code" class="form-control" placeholder="Phone Number" name="name" required/>
+                                <label>Fund Password</label>
+                                <input type="password" id="password" class="form-control" placeholder="Enter Current Password" name="name" required/>
                             </div>
-                            <div class="form-group">
-                                <label>Phone Code</label>
-                                <div className='field'>
-                                    <input type="number" placeholder="Please enter the SMS verification code" name="name" required/>
-                                    <button type="submit" class="get-code disabled">Get Code</button>
-                                </div>
-                            </div>
-
                             <div class="form-group">
                                 <label>Email code</label>
                                 <div className='field'>
@@ -79,4 +71,4 @@ const ApplyNowModal = props => {
         </div>
    ) 
 }
-export default ApplyNowModal;
+export default SetFundPassword;

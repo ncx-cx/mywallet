@@ -103,6 +103,7 @@ import telegram from '../assets/images/svgs/telegram.svg';
 import bluearrow from '../assets/images/svgs/blue-left-arrow.svg';
 import eyeon from '../assets/images/svgs/eye-on.svg';
 import eyeoff from '../assets/images/svgs/eye-off.svg';
+import pluswhite from '../assets/images/svgs/plus-white.svg';
 
 const Svg = {
     inch,
@@ -207,7 +208,8 @@ const Svg = {
     telegram,
     bluearrow,
     eyeon,
-    eyeoff
+    eyeoff,
+    pluswhite
 }
 
 export default Svg;

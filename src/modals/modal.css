@@ -1,0 +1,232 @@
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    backdrop-filter: blur(1.5px) !important;
+    z-index: 99;
+}
+body.ReactModal__Body--open {
+    overflow: hidden;
+}
+#applynow_form{
+    width: 26% !important;
+    background: #1A1A1A !important;
+    border-radius: 5px !important;
+    border: 0px !important;
+    padding: 30px 40px 40px 40px !important;
+}
+button.open-modal {
+    color: #5ED3F0;
+    position: relative;
+    background: none;
+    font-size: 16px;
+    border: none;
+    padding: 0px;
+    font-family: 'urbanist-medium';
+}
+button.open-modal:hover{
+    cursor: pointer;
+}
+.open-modal:after {
+    background-color: #5ed3f0;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 21px;
+    transition: 1s;
+    width: 0;
+}
+.open-modal:hover::after{
+    width: 100%;
+}
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+.heading_corss .hed {
+    text-align: end;
+    margin-bottom: 30px;
+}
+.heading_corss .hed h2 {
+    color: #FFFFFF !important;
+    font-size: 20px !important;
+    text-align: left;
+    font-family: 'urbanist-semibold';
+    font-weight: 400;
+}
+.heading_corss .hed button {
+    background: none !important;
+    border: none !important;
+    padding: 0px !important;
+    cursor: pointer;
+}
+.form-group {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    color: #FFFFFF;
+}
+.form-group input {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.15);
+    height: 45px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    color: #FFFFFF !important;
+}
+.form-group input:hover, .form-group input:focus, .form-group input:focus-visible{
+    outline: none !important;
+    box-shadow: none !important;
+}
+button.form-submit {
+    height: 46.6px;
+    background: #5ED3F0;
+    border-radius: 5px;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'urbanist-medium';
+    font-size: 15px;
+    border: 1px solid #5ED3F0 !important;
+    cursor: pointer;
+}
+button.form-submit.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+button.get-code {
+    background: none !important;
+    border: none !important;
+    color: #5ED3F0;
+    font-size: 14px;
+    padding: 0px !important;
+    font-weight: 200;
+    width: 20%;
+}
+button.get-code.disabled{
+    opacity: 0.5;
+}
+button.get-code.disabled:hover{
+    cursor: not-allowed;
+}
+button.get-code:hover{
+    cursor: pointer;
+}
+.field {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 5px !important;
+}
+.field input {
+    width: 80%;
+    border: none !important;
+}
+
+.ino {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+    margin-top: 10px;
+}
+.ino p {
+    font-size: 12px !important;
+    font-family: 'urbanist-medium';
+    line-height: 16px !important;
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    #applynow_form{
+        width: inherit !important;
+        inset: 40% auto auto 50% !important;
+        max-height: 500px;
+    }
+}
+
+
+
+#withdrawal_protection{
+    width: 30% !important;
+    background: #1A1A1A !important;
+    border-radius: 5px !important;
+    border: 0px !important;
+    padding: 30px 40px 40px 40px !important;
+}
+.checktime-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.checktime-list .checktime{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.checktime-list label{
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    color: rgba(255,255,255,0.6);
+}
+.checktime input {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(255,255,255,0.6);
+    background: #121212 !important;
+    background-color: #121212 !important;
+    border-radius: 50px !important;
+    margin: 0px !important;
+}
+.checktime input:checked{
+    border-color: #5ED3F0 !important;
+    background: #5ED3F0 !important;
+}
+.instruction ol {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0px 0px 0px 13px;
+}
+.instruction ol li{
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+    font-family: 'urbanist-regular';
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.subm_bt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.subm_bt button.cancel {
+    max-width: 200px;
+    min-width: 200px;
+    height: 46.6px;
+    background: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'urbanist-medium';
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#withdrawal_protection button.form-submit{
+    width: unset !important;
+    min-width: 200px;
+    max-width: 200px;
+}

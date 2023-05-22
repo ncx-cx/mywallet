@@ -1,7 +1,7 @@
 import React from "react";
 import Svg from "../Svg";
 import Png from '../Png';
-// import PhoneBound from "../../modals/phonebound";
+import PhoneBound from "../../modals/phonebound";
 
 function TwoFactorAuthentication()
 {
@@ -40,8 +40,7 @@ function TwoFactorAuthentication()
                 <div className="col second">
                     <div className="inner">
                         <p>Not Bound</p>
-                        <a href="/">Bound</a>
-                        {/* <PhoneBound /> */}
+                        <PhoneBound />
                     </div>
                 </div>
             </div>
@@ -74,7 +73,7 @@ function TwoFactorAuthentication()
                     </div>
                 </div>
                 <div className="col second">
-                    <a href="/">Enable</a>
+                    <a href="/security-device-manager">Enable</a>
                 </div>
             </div>
         </div>

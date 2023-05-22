@@ -1,6 +1,9 @@
 import React from "react";
 import Svg from "../Svg";
 import Png from '../Png';
+import LoginPasswordModify from "../../modals/loginpasswordmodify";
+import SetFundPassword from "../../modals/setfundpassword";
+import WhitelistProtection from "../../modals/whitelist-protection";
 
 function WithdrawPassword()
 {
@@ -20,7 +23,7 @@ function WithdrawPassword()
                     </div>
                 </div>
                 <div className="col second">
-                    <a href="/">Modify</a>
+                    <LoginPasswordModify />
                 </div>
             </div>
             <div className="row">
@@ -36,7 +39,7 @@ function WithdrawPassword()
                     </div>
                 </div>
                 <div className="col second">
-                    <a href="/">Set immediately</a>
+                    <SetFundPassword />
                 </div>
             </div>
             <div className="row last">
@@ -55,12 +58,9 @@ function WithdrawPassword()
                     <div className="inner">
                         <div className="fsrr">
                             <p>Withdrawal Whitelist <img src={Svg.info} alt="ncx" /></p>
-                            <label class="switch">
-                                <input type="checkbox" />
-                                <span class="slider round"></span>
-                            </label>
+                            <WhitelistProtection />
                         </div>
-                        <a href="/">Set</a>
+                        <a href="/withdraw-address-management">Set</a>
                     </div>
                 </div>
             </div>
