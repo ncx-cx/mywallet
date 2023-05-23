@@ -3,7 +3,7 @@ import googleauthenticator from '../assets/images/pngs/authenticator.png';
 import backID from '../assets/images/pngs/back-id.png';
 import backupKey from '../assets/images/pngs/backup-key.png';
 import email from '../assets/images/pngs/email.png';
-import frontID from '../assets/images/pngs/apple.png';
+import frontID from '../assets/images/pngs/font-id.png';
 import googlePlay from '../assets/images/pngs/font-id.png';
 import key from '../assets/images/pngs/key.png';
 import location from '../assets/images/pngs/location.png';

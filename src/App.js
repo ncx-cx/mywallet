@@ -5,6 +5,7 @@ import './assets/style/main.css';
 import WithdrawalAddressManagement from './pages/profile/withdrawal-address-management';
 import SupportPage from './pages/support/support';
 import TestTabs from './pages/profile/new-profile';
+import BasicVerification from './components/verification/basic-verification';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path='withdraw-address-management' exact element={<WithdrawalAddressManagement />} />
           <Route path='/support' exact element={<SupportPage />} />
           <Route path='/:profile_settings/?' element={<TestTabs />} />
+          <Route path='/auth/key/upload' element={<BasicVerification />} />
         </Routes>
       </BrowserRouter>
 );

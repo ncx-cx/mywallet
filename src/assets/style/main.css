@@ -660,6 +660,9 @@ a.back-to-home h1{
     font-size: 14px;
     font-family: 'urbanist-regular';
 }
+.whiteaddress{
+    margin-top: 20px;
+}
 .alltoken select option{
     color: #000000;
     font-size: 14px;
@@ -784,7 +787,7 @@ a.risk-survey {
     width: 16px;
     height: 16px;
 }
-.ytr form button {
+.ytr button, .ytr a.verify_now {
     width: 100%;
     height: 45px;
     background: #5ED3F0;
@@ -794,10 +797,16 @@ a.risk-survey {
     font-size: 14px;
     font-family: 'urbanist-medium';
     margin-top: 10px;
+    text-transform: capitalize;
 }
-.ytr form button:disabled{
+.ytr button:hover, .ytr a.verify_now:hover{
+    cursor: pointer;
+}
+.ytr button:disabled, .ytr a.verify_now.Mui-disabled{
     background: #4E5659;
-    color:rgba(255, 255, 255, 0.4)
+    color:rgba(255, 255, 255, 0.4);
+    cursor: not-allowed;
+    text-transform: capitalize;
 }
 .dwerr .p-iden {
     min-height: 124px;
@@ -819,4 +828,114 @@ a.risk-survey {
     font-size: 14px;
     font-family: 'urbanist-semibold';
     font-weight: 400;
+}
+
+
+/* **************************************************************************** */
+.basicc {
+    padding: 50px 0px;
+}
+.head_btnss {
+    display: flex;
+    gap: 15px;
+}
+a.mml-w {
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    color: #FFFFFf;
+    min-height: 46px;
+    min-width: 140px;
+    font-size: 16px;
+    font-family: 'urbanist-regular';
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+a.mml-w.ogds{
+    border: 1px solid #5ED3F0;
+    box-shadow: 0px 0px 15px rgba(94, 211, 240, 0.75);
+}
+.basic_upload {
+    background: #121212;
+    margin-top: 20px;
+    padding: 30px 40px;
+}
+a.titl {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+a.titl h1 {
+    font-size: 24px;
+    font-family: 'urbanist-medium' !important;
+    font-weight: 400;
+}
+.imsss {
+    padding: 50px;
+    text-align: center;
+}
+.imsss p {
+    font-size: 16px;
+    font-family: 'urbanist-medium';
+    color: rgba(255,255,255,0.6);
+}
+
+
+/* ***************************************************************************** */
+.row.ulo {
+    display: flex;
+    width: 100%;
+    margin: 0px 0px 50px 0px;
+    justify-content: space-between;
+}
+.row.ulo .col {
+    width: 25% !important;
+}
+.row.ulo .col .card-container img {
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+.row.ulo .col .card-container h1 {
+    font-size: 22px;
+    font-family: 'urbanist-medium';
+    font-weight: 400;
+    padding: 0px 20px;
+}
+.row.ulo .col .card-container p {
+    font-size: 14px;
+    font-family: 'urbanist-regular';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 20px 0px;
+}
+.upload-Images::-webkit-file-upload-button {
+    visibility: hidden;
+}
+input.upload-Images {
+    color: #FFFFFF;
+    font-family: 'urbanist-medium';
+    font-size: 14px;
+    display: grid;
+    margin: 0 auto;
+}
+.upload-Images::before {
+    content: 'upload';
+    cursor: pointer;
+    background: #5ED3F0;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.card-container {
+    text-align: center;
 }

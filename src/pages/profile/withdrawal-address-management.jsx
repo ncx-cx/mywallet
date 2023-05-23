@@ -1,52 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Myheader from '../../components/header/header';
+import Button from '@mui/material/Button';
 import WithdrawalAddress from '../../components/profile/device-manager/withdraw-address-management';
-import SecurityDevice from '../../components/profile/device-manager/device-manager';
 
 function WithdrawalAddressManagement()
 {
-    const [toggleState, setToggleState] = useState(1);
-    const toggleTab = (index) => {
-        setToggleState(index);
-    };
-
     return(
-        <div className="profile-page">
+        <div className="address-book">
             <Myheader />
-
-            <div className='profile'>
+            <div className="basicc">
                 <div className="container">
-                    <div className="buttons">
-                        <button
-                            className={toggleState === 1 ? "pf_btn active" : "pf_btn"}
-                            onClick={() => toggleTab(1)}
-                        >
-                        Profile/Settings
-                        </button>
-                        <button
-                            className={toggleState === 2 ? "pf_btn active" : "pf_btn"}
-                            onClick={() => toggleTab(2)}
-                        >
-                        Verification
-                        </button>
-                        <button
-                            className={toggleState === 3 ? "pf_btn active" : "pf_btn"}
-                            onClick={() => toggleTab(3)}
-                        >
-                        Security
-                        </button>
+                    <div className="head_btnss">
+                        <Button href="/profile_settings" className="mml-w">Profile/Settings</Button>
+                        <Button href="/identification" className="mml-w ogds">Verification</Button>
+                        <Button href="/security" className="mml-w">Security</Button>
                     </div>
-                    <div className="ind__cont_tabs">
-                        <div className={toggleState === 1 ? "tab__cont  active" : "tab__cont"}>
-                            <WithdrawalAddress />
-                        </div>
-                        <div className={toggleState === 2 ? "tab__cont  active" : "tab__cont"}>
-                            <h1>Tab 2</h1>
-                        </div>
-                        <div className={toggleState === 3 ? "tab__cont  active" : "tab__cont"}>
-                            <SecurityDevice />
-                        </div>
-                    </div>
+                    <WithdrawalAddress />
                 </div>
             </div>
         </div>
