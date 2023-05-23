@@ -28,7 +28,7 @@ function ProfileTab()
                     </div>
                     <div className="wlcm-2">
                         <p>bil***@ncx.cx</p>
-                        <a href="/">Advance Verification < img src={Svg.bluearrow} alt="ncx" /></a>
+                        <a href="/identification">Advance Verification < img src={Svg.bluearrow} alt="ncx" /></a>
                         <p className="uid">
                             UID:3001791 
                             <span>Last login time: 2023-05-18 11:16:54IP Address：87.200.209.71</span>

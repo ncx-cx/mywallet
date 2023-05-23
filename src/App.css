@@ -36,6 +36,9 @@ a{
   color: #FFFFFF;
   text-decoration: none;
 }
+li{
+  list-style-type: none;
+}
 
 /************************** Body Scroll Section Starts from here *************************/
 /* width */

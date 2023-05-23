@@ -73,7 +73,7 @@ function TwoFactorAuthentication()
                     </div>
                 </div>
                 <div className="col second">
-                    <a href="/security-device-manager">Enable</a>
+                    <a href="/security">Enable</a>
                 </div>
             </div>
         </div>
