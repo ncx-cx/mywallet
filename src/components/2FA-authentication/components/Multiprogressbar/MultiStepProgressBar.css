@@ -1,0 +1,73 @@
+.indexedStep {
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    background: #363636;
+    border-radius: 50%;
+    display: flex;
+    border: 5px solid #121212;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'urbanist-medium';
+}
+
+.indexedStep.accomplished {
+    background-color: #5ed3f0;
+    color: white;
+    border-style: none;
+}
+
+.RSPBprogressBar {
+    height: 4px;
+    width: 80%;
+    line-height: 1;
+    border-radius: 10px;
+    position: relative;
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    margin: 20px auto;
+}
+
+.RSPBprogressBar .RSPBstep {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.RSPBprogressBar .RSPBprogressBarText {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.RSPBprogressBar .RSPBprogression {
+    position: absolute;
+    transition: width 0.3s ease;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background: #5ed3f0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+    .indexedStep{
+        width: 15px;
+        height: 15px;
+        font-size: 6px;
+    }
+}

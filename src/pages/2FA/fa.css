@@ -1,0 +1,228 @@
+.hfsf {
+    background: #121212;
+    padding: 30px 40px 70px 40px;
+    margin-top: 20px;
+}
+a.hwegb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-family: 'urbanist-medium';
+}
+h1.enable-2fa {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'urbanist-semibold';
+    font-weight: 400;
+    margin-top: 50px;
+}
+.hfsf .App {
+    margin-top: 70px;
+}
+main.main-page {
+    margin-top: 50px;
+    text-align: center;
+}
+form.measure h2 {
+    font-size: 32px;
+    font-family: 'urbanist-semibold';
+    width: 30%;
+    margin: 0 auto;
+}
+.app_stor {
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px !important;
+}
+.app_stor .col {
+    width: 50%;
+    text-align: center;
+}
+.app_stor .col img {
+    width: 44px !important;
+}
+.app_stor .col p, .app_stor .col span{
+    font-size: 14px;
+    font-family: "urbanist-semibold";
+    font-weight: 400px;
+    margin: 10px 0px;
+    color: rgba(255,255,255,0.6);
+}
+.app_stor .col span{
+    color: #FFFFFF !important;
+}
+form.measure input {
+    margin: 0 auto !important;
+    height: 45px !important;
+    color: #FFFFFF;
+    font-family: 'urbanist-medium';
+    font-size: 16px !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.qr_code {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.gbnds img {
+    width: 100%;
+}
+.gbnds {
+    width: 150px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding: 10px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 30px !important;
+}
+.copy_tvt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+span.fsd_fd {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    font-family: 'urbanist-regular';
+    font-weight: 400;
+    line-height: 17px;
+}
+.bvedfc {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.measure .bvedfc input {
+    width: 100% !important;
+}
+.wert {
+    width: 120px !important;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 50px !important;
+}
+.wert img {
+    width: 100% !important;
+}
+.gwrgb {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.dsdf label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #FFFFFF !important;
+    font-family: 'urbanist-medium';
+    font-size: 14px !important;
+    align-items: baseline;
+    gap: 10px;
+}
+.dsdf label input{
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'urbanist-medium';
+    font-weight: 400;
+    width: 338.4px;
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 0px 10px;
+    cursor: inherit;
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    font-weight: 400;
+}
+.dsdf label input:focus, .dsdf label input:focus-visible{
+    outline: none;
+    box-shadow: none;
+}
+.dsdf p {
+    font-size: 12px !important;
+    text-align: left;
+    color: rgba(255,255,255,0.6);
+    margin-top: 7px;
+}
+.dsdf.one{
+    margin-bottom: 20px;
+}
+h3.nbvc {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    font-weight: 300;
+    color: #5ED3F0;
+    margin-bottom: 20px;
+}
+.qr__bb {
+    display: flex;
+    width: 360px;
+    position: relative;
+    border: 1px solid rgba(255,255,255, 0.15);
+    border-radius: 5px;
+}
+.qr__bb input{
+    border: none !important;
+    border-radius: 0px !important;
+}
+.qr__bb button {
+    background: none;
+    border: none;
+    height: 45px;
+    color: #5ED3F0;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    width: 90px;
+    cursor: pointer;
+    opacity: 1;
+}
+.measure .bvedfc input.back {
+    background: transparent !important;
+    border: 1px solid #5ED3F0 !important;
+}
+.qr__bb button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.jnhbv {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.jnhbv h2{
+    width: 100% !important;
+    margin-bottom: 20px !important;
+}
+.jnhbv p{
+    color: rgba(255,255,255,0.6) !important;
+}
+.jnhbv img {
+    position: relative;
+    left: -15px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+a.lkjh{
+    margin: 0 auto !important;
+    height: 45px !important;
+    color: #FFFFFF;
+    font-family: 'urbanist-medium';
+    font-size: 16px !important;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(94, 211, 240);
+    text-transform: capitalize;
+    width: 100%;
+}
+a.lkjh:hover{
+    border: 1px solid rgb(94, 211, 240);
+}

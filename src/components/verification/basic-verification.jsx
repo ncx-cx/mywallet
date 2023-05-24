@@ -3,8 +3,9 @@ import Svg from '../Svg';
 import Png from '../Png';
 import Button from '@mui/material/Button';
 import Header from '../header/header';
-import BasicUpload from '../verification/upload';
-// import NewUpload from '../verification/new-upload';
+import FrontID from './fronid';
+import BackId from './backid';
+import Selfie from './selfie';
 
 function BasicVerification()
 {
@@ -28,13 +29,13 @@ function BasicVerification()
                         </div>
                         <div className="row ulo">
                                 <div className="col">
-                                    <BasicUpload />
+                                    <FrontID />
                                 </div>
                                 <div className="col">
-                                    <BasicUpload />
+                                    <BackId />
                                 </div>
                                 <div className="col">
-                                    <BasicUpload />
+                                    <Selfie />
                                 </div>
                             </div>
                     </div>

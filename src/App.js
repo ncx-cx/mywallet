@@ -7,6 +7,7 @@ import SupportPage from './pages/support/support';
 import TestTabs from './pages/profile/new-profile';
 import BasicVerification from './components/verification/basic-verification';
 import WalletPage from './pages/wallet/wallet';
+import GoogleAuth from './pages/2FA/fa';
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
           <Route path='/support' exact element={<SupportPage />} />
           <Route path='/:profile_settings/?' element={<TestTabs />} />
           <Route path='/auth/key/upload' element={<BasicVerification />} />
-          {/* <Route path='/wallet' element={<WalletPage />} /> */}
+          <Route path='/google-auth' element={<GoogleAuth />} />
         </Routes>
       </BrowserRouter>
 );

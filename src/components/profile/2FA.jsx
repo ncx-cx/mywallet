@@ -57,7 +57,7 @@ function TwoFactorAuthentication()
                     </div>
                 </div>
                 <div className="col second">
-                    <a href="/">Enable</a>
+                    <a href="/google-auth">Enable</a>
                 </div>
             </div>
             <div className="row last">
