@@ -151,7 +151,7 @@ export default function Header() {
             <div className="login-buttons">
               <div className="accnt_div">
                 <Button href="https://ncx.cx/wallet" className="wallet">Wallet</Button>
-                <a href="/" className="accot"><img src={Svg.account} alt="ncx"/></a>
+                <a href="/profile_settings" className="accot"><img src={Svg.account} alt="ncx"/></a>
               </div>
               <div className="icons_div">
                 <div className="downloadQRCode">

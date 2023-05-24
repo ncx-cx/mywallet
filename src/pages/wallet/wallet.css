@@ -1,0 +1,349 @@
+.Wallet-section {
+    padding: 50px 0px;
+}
+.yrqf .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.yrqf {
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 10px;
+    padding: 30px 50px;
+    background: url(../../assets/images/pngs/assets-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left top;
+}
+.rtwfg button.btn.btn-outline-primary {
+    background: none;
+    border: none;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+}
+.rtwfg {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.tereg {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 12px;
+}
+.tereg input.form-control{
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 40px;
+    max-width: 78px;
+    padding: 0px;
+    font-family: 'urbanist-medium';
+}
+.tew {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.wrg input {
+    background: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'urbanist-medium';
+    border: none;
+    padding: 0px;
+    max-width: 112px;
+}
+.tew h3 {
+    font-size: 18px;
+    font-family: 'urbanist-medium';
+    font-weight: 400;
+}
+.wrg span {
+    color: #FFFFFF;
+    font-family: 'urbanist-medium';
+    font-size: 18px;
+}
+a.treg {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #5ED3F0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+a.treg:hover{
+    background: #5ED3F0;
+}
+a.uuy  {
+    width: 100px;
+    height: 40px;
+    background: #5ED3F0;
+    border: 1px solid #5ED3F0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+a.uuy :hover{
+    background: transparent;
+}
+.thsq{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* ********************************************************************************  */
+.unitf {
+    margin-top: 40px;
+}
+.fsdg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fsdg a {
+    color: #5ED3F0;
+    font-size: 16px;
+    font-family: 'urbanist-regular';
+    position: relative;
+}
+.fsdg a:after {
+    background-color: #5ed3f0;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 24px;
+    transition: 1s;
+    width: 0;
+}
+.fsdg a:hover:after{
+    width: 100%;
+}
+.dtwe {
+    display: flex;
+    gap: 15px;
+}
+button.teeww.active {
+    border: 1px solid #5ED3F0;
+    box-shadow: 0px 0px 15px rgba(94, 211, 240, 0.75);
+}
+button.teeww {
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    color: #FFFFFf;
+    min-height: 46px;
+    min-width: 140px;
+    font-size: 16px;
+    font-family: 'urbanist-regular';
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hdfdb {
+    margin-top: 20px;
+}
+.uikw{
+    display: none;
+}
+.uikw.active{
+    display: block;
+}
+.pls_ger{
+    display: flex;
+    gap: 20px;
+}
+.pls_ger .col.weel {
+    width: 25%;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background: #131313;
+}
+.pls_ger .col.utfd{
+    width: 75%;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background: #131313;
+    display: flex;
+    align-items: center;
+}
+.pls_ger .col.weel p {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    font-family: 'urbanist-regular';
+    margin-bottom: 10px;
+}
+.tth {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 4px;
+    align-items: baseline;
+}
+.tth h1 {
+    font-size: 32px;
+    font-family: 'urbanist-medium';
+    font-weight: 400;
+}
+.tth span {
+    font-size: 22px;
+    font-family: 'urbanist-medium';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+p.yrdf {
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    font-family: 'urbanist-medium' !important;
+    margin-bottom: 0px !important;
+}
+.row.hjdsd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.gdgfs p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+    font-family: 'urbanist-regular';
+    margin-bottom: 10px;
+}
+.gdgfs h1{
+    font-size: 20px;
+    font-family: 'urbanist-medium';
+}
+
+/********************************** Assets Table css ********************************* */
+.assets table {
+    width: 100%;
+}
+.assets table th {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    font-weight: 400;
+    padding: 0px;
+    text-align: left;
+}
+td.wer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0px;
+}
+td.wer h3{
+    font-size: 18px;
+    font-family: 'urbanist-semibold';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.assets table tbody tr td, .assets table thead tr th{
+    width: 20%;
+    padding: 0px;
+    height: inherit;
+}
+.assets table thead{
+    margin-bottom: 20px;
+}
+.assets table tbody tr{
+    height: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all .3s;
+    position: relative;
+}
+.assets table tbody tr:hover{
+    margin-left: -10px;
+    margin-right: -10px;
+    cursor: pointer;
+    background: #000000;
+}
+.assets table tbody tr td p {
+    font-size: 16px;
+    font-family: 'urbanist-semibold';
+    font-weight: 400;
+}
+.assets table tbody tr td span {
+    font-size: 12px;
+    font-family: 'urbanist-medium';
+    color: rgba(255,255,255,0.6);
+    font-weight: 400;
+}
+a.wit {
+    padding: 0px;
+    font-family: 'urbanist-regular';
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-right: 10px;
+    width: 75px;
+    height: 30px;
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+a.wit:hover{
+    border: 1px solid #5ED3F0;
+}
+a.dpst:hover{
+    background: transparent;
+    border: 1px solid #5ED3F0;
+}
+a.dpst {
+    background: #5ED3F0;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    width: 65px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'urbanist-regular';
+}
+.assets table tbody tr td:last-child, .assets table thead tr th:last-child{
+    text-align: end;
+}
+table {
+    border-collapse: collapse;
+}
+.assets {
+    background: #131313;
+    margin-top: 30px;
+    padding: 30px 40px;
+}
+.search_bar {
+    margin-bottom: 30px;
+}
+.search_bar label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search_bar input {
+    background: none;
+    border: none;
+    padding: 0px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'urbanist-regular';
+}
+.search_bar input:focus, .search_bar input:focus-visible{
+    outline: none;
+    box-shadow: none;
+}
+.search_bar input::placeholder{
+    color:rgba(255, 255, 255, 0.7)
+}
+.search_bar label img{
+    width: 16px;
+}
+
+
+/* *********************************Assets History******************************** */
+.hit-gsf .fsdg {
+    justify-content: center;
+}
+.hit-gsf {
+    background: #131313;
+    padding: 30px 40px;
+}

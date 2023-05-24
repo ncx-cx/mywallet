@@ -2,7 +2,7 @@ import { useUploadFile } from "dex-react-file-upload";
 import Png from "../Png";
 
 export default function App() {
-  const { handleChange, fileData, handleOnDrop } = useUploadFile({
+  const { handleChange, fileData } = useUploadFile({
     handleError(props) {
       console.log(props);
     },

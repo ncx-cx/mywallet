@@ -4,6 +4,7 @@ import Png from '../Png';
 import Button from '@mui/material/Button';
 import Header from '../header/header';
 import BasicUpload from '../verification/upload';
+// import NewUpload from '../verification/new-upload';
 
 function BasicVerification()
 {
