@@ -8,6 +8,7 @@
   background: #000000 !important;
   z-index: 11;
   position: relative;
+  box-shadow: 0 0 30px 0 hsla(0,0%,100%,.25);
 }
 .stick_header {
     position: sticky !important;

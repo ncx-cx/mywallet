@@ -1,5 +1,9 @@
 import React, {useState} from "react";
-
+import DepositHistory from "./history/deposit";
+import ExchangeHistory from './history/exchange';
+import Intertransfer from './history/inter-transfer';
+import LoginHistory from './history/login';
+import WithdrawalHistory from './history/withdraw';
 
 function AssetsHistory()
 {
@@ -47,19 +51,19 @@ function AssetsHistory()
                 </div>
                 <div className="hdfdb">
                     <div className={toggleState === 1 ? "uikw  active" : "uikw"}>
-                        <h1>Deposit</h1>
+                    <DepositHistory />
                     </div>
                     <div className={toggleState === 2 ? "uikw  active" : "uikw"}>
-                        <h1>Withdraw</h1>
+                        <WithdrawalHistory />
                     </div>
                     <div className={toggleState === 3 ? "uikw  active" : "uikw"}>
-                        <h1>Exchange</h1>
+                        <ExchangeHistory />
                     </div>
                     <div className={toggleState === 4 ? "uikw  active" : "uikw"}>
-                        <h1>Inter Transfer</h1>
+                        <Intertransfer />
                     </div>
                     <div className={toggleState === 5 ? "uikw  active" : "uikw"}>
-                        <h1>Login</h1>
+                        <LoginHistory />
                     </div>
                 </div>
             </div>

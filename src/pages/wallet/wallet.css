@@ -347,3 +347,85 @@ table {
     background: #131313;
     padding: 30px 40px;
 }
+.uhgh label {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    font-weight: 300;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pcikre {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+.pcikre input {
+    width: 190px;
+    height: 34px;
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+    padding: 0px 10px;
+}
+.gdgdw {
+    height: 35.6px;
+    width: 35.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgba(255,255,255,0.15);
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.hit-gsf .uikw {
+    margin-top: 60px;
+}
+.gqwr {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.srch-g {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+a.dwnld {
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.gdcvb{
+    position: relative;
+}
+.gdcvb input.srcgd {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.15);
+    height: 35.6px;
+    padding: 0px 10px 0px 30px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.gdcvb img {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.gdcvb input.srcgd:focus, .gdcvb input.srcgd:focus-visible{
+    outline: none;
+    box-shadow: none;
+}
