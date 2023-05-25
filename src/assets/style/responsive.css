@@ -88,5 +88,10 @@
     .assets table tbody tr td p{
         font-size: 12px !important;
     }
-
+    .row.hjdsd {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
 }
