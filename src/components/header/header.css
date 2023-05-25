@@ -661,3 +661,127 @@ a.accot {
         display: none;
     }
 }
+
+#header-newmobile{
+  display: none;
+}
+@media screen and (max-width: 900px){
+  #header-newmobile{
+    display: block;
+    position: relative;
+    padding: 10px 0;
+    width: 100%!important;
+
+  }
+  #main-header.desktop{
+    display: none;
+  }
+  .mobile .navigation {
+    align-items: center;
+    background-color: #000;
+    box-shadow: 0 2px 2px 2px rgba(9,9,9,.23);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  .navigation-one {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+  }
+  #header-newmobile .translate_lng {
+    padding: 10px 0;
+    position: relative;
+  }
+  .mobile-toogle {
+    text-align: left!important;
+    width: fit-content;
+  }
+  button.hamburger {
+    background: none!important;
+    border: 0;
+    padding: 0!important;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    z-index: 1;
+    position: relative;
+  }
+  .hamburger svg {
+    height: auto!important;
+    width: 17px;
+  }
+  .hamburger img {
+    height: auto!important;
+    width: 17px;
+  }
+  .clols {
+    display: none;
+  }
+  #header-newmobile.header-expanded.avtive .clols {
+    display: block;
+  }
+  #header-newmobile.header-expanded.avtive .mplo {
+    display: none;
+  }
+  .navigation-menu {
+    margin-left: auto;
+  }
+  .navigation-menu.expanded {
+    background: #000;
+    height: 100vh;
+    left: -20px;
+    padding: 70px 40px 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  .navigation-menu ul {
+    display: none;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+    padding: 0;
+  }
+  .navigation-menu.expanded ul li {
+    margin: 0!important;
+    padding: 13px 10px;
+  }
+  .navigation-menu li {
+    list-style-type: none;
+  }
+  #header-row {
+    background: #000000;
+    z-index: 1;
+    position: relative;
+  }
+  .navigation-menu.expanded ul li a {
+    color: #fff;
+    font-family: urbanist-regular!important;
+    font-size: 19px;
+    line-height: 32px;
+    margin: 0 auto;
+    text-align: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .navigation-menu li a {
+    display: block;
+    text-decoration: none;
+  }
+  a.download_app {
+    border: 1.5px solid #5ed3f0!important;
+    color: #fff!important;
+    border-radius: 10px;
+    width: 100% !IMPORTANT;
+    height: 48px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  #header-row .css-hyum1k-MuiToolbar-root{
+    padding: 0px !important;
+  }
+}

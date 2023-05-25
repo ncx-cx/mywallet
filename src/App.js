@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './assets/style/main.css';
+import './assets/style/responsive.css';
 import WithdrawalAddressManagement from './pages/profile/withdrawal-address-management';
 import SupportPage from './pages/support/support';
 import TestTabs from './pages/profile/new-profile';

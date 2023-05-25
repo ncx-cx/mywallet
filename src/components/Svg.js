@@ -80,6 +80,8 @@ import authenticationenables from '../assets/images/svgs/authenticator-enables.s
 import backarrow from '../assets/images/svgs/back-arrow.svg';
 import calendar from '../assets/images/svgs/calendar.svg';
 import close from '../assets/images/svgs/close.svg';
+import close2 from '../assets/images/svgs/close-1.svg';
+import close3 from '../assets/images/svgs/close-2.svg';
 import copy from '../assets/images/svgs/copy.svg';
 import download from '../assets/images/svgs/download.svg';
 import dropdown from '../assets/images/svgs/dropdown.svg';
@@ -186,6 +188,8 @@ const Svg = {
     backarrow,
     calendar,
     close,
+    close2,
+    close3,
     copy,
     download,
     dropdown,

@@ -9,6 +9,8 @@ import './header.css';
   
 export default function Header() {   
 
+  const [isNavExpanded, setIsNavExpanded] = useState(false)
+
   const [scrolled, setScrolled] = useState(false);
     const handleScroll=() => {
         const offset=window.scrollY;
@@ -32,7 +34,7 @@ export default function Header() {
 //   const [isNavExpanded, setIsNavExpanded] = useState(false) 
   
   return (
-      <AppBar position="static" id="header-row" className={navbarClasses.join(" ")}>
+      <AppBar position="static" id="header-row" className={navbarClasses.join(" ")} >
         <Toolbar>
           <div id="main-header" className="desktop">
             <div className="logo-nav">
@@ -192,6 +194,110 @@ export default function Header() {
                 </div>
               </div>
             </div>
+          </div>
+
+          
+          <div id="header-newmobile" className={
+              isNavExpanded ? "mobile header-expanded avtive" : "header-expanded mobile"
+            }>
+            <nav className="navigation">
+              <div className="navigation-one">
+                <div className="mobile-toogle">
+                  <button 
+                    className="hamburger"
+                    onClick={() => {
+                      setIsNavExpanded(!isNavExpanded)
+                    }}>
+                    <div className="mplo">
+                      <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.875 0.5H18.125V1.49902H0.875V0.5ZM1 7.50098L18.125 7.5V8.49902L1 8.5V7.50098ZM0.875 14.5H18.125V15.499H0.875V14.5Z" fill="white"/>
+                      </svg>
+                    </div>
+                    <div className="clols">
+                      <img src={Svg.close3} alt="ncx"/>
+                    </div>
+                  </button>
+                  <div
+                    className={
+                      isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+                    }>
+                    <ul>
+                      <li>
+                        <a href="https://ncx.cx/buy-crypto">Buy Crypto</a>
+                      </li>
+                      <li>
+                        <a href="https://trade.ncx.cx/" target="_blank" rel="noreferrer">Spot Trading</a>
+                      </li>
+                      <li>
+                        <a href="/derivatives">Derivatives</a>
+                      </li>
+                      <li>
+                        <a href="/markets">Markets</a>
+                      </li>
+                      <li>
+                        <a href="https://bsc.ncx.cx/swap" target="_blank" rel="noreferrer">DEX</a>
+                      </li>
+                      <li>
+                        <a href="https://ncx.cx/ncx-card">NCX Card</a>
+                      </li>
+                      <li>
+                        <a href="https://ncx.cx/wallet">NCX DeFi Wallet</a>
+                      </li>
+                      <li>
+                        <a href="/ncx-token">NCX Token</a>
+                      </li>
+                      <li>
+                        <a href="/rewards">Rewards</a>
+                      </li>
+                      <li>
+                        <a href="/market-insights">News & Insights</a>
+                      </li>
+                      <li>
+                        <a className="download_app" href="#" target="_blank" rel="noreferrer">Download NCX mobile App</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="mobile-logo">
+                <IconButton
+                  size="large"
+                  edge="start"
+                  color="inherit"
+                  aria-label="menu"
+                  className="header-logo"
+                  sx={{ mr: 2 }}
+                >
+                <a href="https://ncx.cx/"><img src={Svg.Logo} alt="NCX-Logo" /></a>
+                </IconButton>
+                </div>
+              </div>
+              {/* <div className="mobile-launch">
+                <div class="dropdown">
+                  <button class="dropbtn">{t("launch_dex")}</button>
+                  <div class="dropdown-content">
+                    <a href="https://bsc.ncx.cx/swap" target="_blank" rel="noreferrer">{t("launch_dex")}</a>
+                    <a href="https://my.ncx.cx/en/login" target="_blank" rel="noreferrer">{t("sign_in")}</a>
+                  </div>
+                </div>
+              </div> */}
+              <div className="translate_lng">
+                <div id="tran_lang">
+                  <img src={Svg.global} alt="ncx"/>
+                </div>
+                <div id="language_trans">
+                  <div class="language-box">
+                    <a href="#">English</a>
+                    <a href="#">हिन्दी</a>
+                    <a href="#">Español</a>
+                    <a href="#">中文</a>
+                    <a href="#">Bahasa</a>
+                    <a href="#">Tiếng Việt</a>
+                    <a href="#">Русский</a>
+                    <a href="#">Melayu</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
           </div>
         </Toolbar>
       </AppBar>
