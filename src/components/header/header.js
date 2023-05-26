@@ -306,6 +306,7 @@ export default function Header() {
                         </div>
                         <img className="log-out" src={Svg.logout} alt="ncx"/>
                       </div>
+                      <Button className="mnbvc" href="#">Switch Account</Button>
                       <li>
                         <details>
                           <summary>Assets

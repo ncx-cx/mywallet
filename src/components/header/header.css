@@ -862,10 +862,12 @@ a.accot {
     padding-left: 20px !important;
   }
   .account_toggle .navigation-menu.expanded {
-    padding: 80px 10px 0px 10px !important;
+    padding: 80px 15px 0px 15px !important;
     min-height: 100vh !important;
     max-height: 200vh !important;
     overflow-y: scroll;
+    width: 98% !important;
+    left: -10px !important;
   }
   .navigation-menu.expanded ul li details .contt {
     margin-top: 20px;
@@ -915,5 +917,22 @@ a.accot {
   }
   img.log-out {
     width: 16px;
+  }
+  #header-row .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular{
+    padding: 0px !important;
+  }
+  .account_toggle .navigation-menu.expanded a.mnbvc {
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: 'urbanist-regular';
+    text-transform: capitalize;
+    font-size: 13px !important;
+    border: 1px solid rgba(255,255,255,0.15);
+    height: 44px !important;
+    border-radius: 10px;
+  }
+  .account_toggle .navigation-menu.expanded a.mnbvc:hover{
+    border-color: #5ED3F0 !important;
+    background: #5ED3F0 !important;
   }
 }
