@@ -9,7 +9,9 @@ import './header.css';
   
 export default function Header() {   
 
-  const [isNavExpanded, setIsNavExpanded] = useState(false)
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+  const [isAccountExpanded, setIsAccountExpanded] = useState(false);
 
   const [scrolled, setScrolled] = useState(false);
     const handleScroll=() => {
@@ -196,10 +198,8 @@ export default function Header() {
             </div>
           </div>
 
-          
           <div id="header-newmobile" className={
-              isNavExpanded ? "mobile header-expanded avtive" : "header-expanded mobile"
-            }>
+              isNavExpanded ? "mobile header-expanded avtive" : "header-expanded mobile"}>
             <nav className="navigation">
               <div className="navigation-one">
                 <div className="mobile-toogle">
@@ -271,29 +271,89 @@ export default function Header() {
                 </IconButton>
                 </div>
               </div>
-              {/* <div className="mobile-launch">
-                <div class="dropdown">
-                  <button class="dropbtn">{t("launch_dex")}</button>
-                  <div class="dropdown-content">
-                    <a href="https://bsc.ncx.cx/swap" target="_blank" rel="noreferrer">{t("launch_dex")}</a>
-                    <a href="https://my.ncx.cx/en/login" target="_blank" rel="noreferrer">{t("sign_in")}</a>
+              <div className="hgfds">
+                <div className="account_toggle">
+                  <button 
+                    className="hamburger"
+                    onClick={() => {
+                      setIsAccountExpanded(!isAccountExpanded)
+                    }}>
+                    <div className={
+                      isAccountExpanded ? "qwer sdf" : "qwer"
+                    }>
+                      <img src={Svg.account} alt="ncx"/>
+                    </div>
+                    <div  className={
+                      isAccountExpanded ? "tresdv mnbvs" : "tresdv"
+                    }>
+                      <img src={Svg.close3} alt="ncx"/>
+                    </div>
+                  </button>
+                  <div
+                    className={
+                      isAccountExpanded ? "navigation-menu expanded" : "navigation-menu"
+                    }>
+                    <ul>
+                      <div className="werv">
+                        <div className="pr0-v">
+                          <div className="hgsw">
+                            <img src={Svg.account} alt="ncx"/>
+                          </div>
+                          <div className="resdf-fde">
+                            <p>bilawal@ncx,cx</p>
+                            <span>UID: 316593683900320481</span>
+                          </div>
+                        </div>
+                        <img className="log-out" src={Svg.logout} alt="ncx"/>
+                      </div>
+                      <li>
+                        <details>
+                          <summary>Assets
+                              <span className='red'>
+                                  <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M1.2657 0.850586C0.312684 0.850586 -0.19666 1.97304 0.430911 2.69023L5.33092 8.29028C5.9496 8.99735 7.04961 8.99735 7.6683 8.29028L12.5684 2.69023C13.1958 1.97304 12.6866 0.850586 11.7335 0.850586H1.2657Z" fill="white"/>
+                                  </svg>
+                              </span>
+                          </summary>
+                          <div className='contt'>
+                              <ul>
+                                <li><a href="#">My Assets</a></li>
+                                <li><a href="#">Deposit</a></li>
+                                <li><a href="#">Withdraw</a></li>
+                                <li><a href="#">Transfer</a></li>
+                                <li><a href="#">Analysis</a></li>
+                                <li><a href="#">Order Center</a></li>
+                                <li><a href="#">My Trading Fees</a></li>
+                                <li><a href="#">Audits</a></li>
+                              </ul>
+                          </div>
+                        </details>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Verification</a></li>
+                        <li><a href="#">Preferences</a></li>
+                        <li><a href="#">Sub-accounts</a></li>
+                        <li><a href="#">API Keys</a></li>
+                        <li><a href="#">Authorization</a></li>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-              </div> */}
-              <div className="translate_lng">
-                <div id="tran_lang">
-                  <img src={Svg.global} alt="ncx"/>
-                </div>
-                <div id="language_trans">
-                  <div class="language-box">
-                    <a href="#">English</a>
-                    <a href="#">हिन्दी</a>
-                    <a href="#">Español</a>
-                    <a href="#">中文</a>
-                    <a href="#">Bahasa</a>
-                    <a href="#">Tiếng Việt</a>
-                    <a href="#">Русский</a>
-                    <a href="#">Melayu</a>
+                <div className="translate_lng">
+                  <div id="tran_lang">
+                    <img src={Svg.global} alt="ncx"/>
+                  </div>
+                  <div id="language_trans">
+                    <div class="language-box">
+                      <a href="#">English</a>
+                      <a href="#">हिन्दी</a>
+                      <a href="#">Español</a>
+                      <a href="#">中文</a>
+                      <a href="#">Bahasa</a>
+                      <a href="#">Tiếng Việt</a>
+                      <a href="#">Русский</a>
+                      <a href="#">Melayu</a>
+                    </div>
                   </div>
                 </div>
               </div>

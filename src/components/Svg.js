@@ -106,6 +106,7 @@ import bluearrow from '../assets/images/svgs/blue-left-arrow.svg';
 import eyeon from '../assets/images/svgs/eye-on.svg';
 import eyeoff from '../assets/images/svgs/eye-off.svg';
 import pluswhite from '../assets/images/svgs/plus-white.svg';
+import logout from '../assets/images/svgs/logout.svg';
 
 const Svg = {
     inch,
@@ -213,7 +214,8 @@ const Svg = {
     bluearrow,
     eyeon,
     eyeoff,
-    pluswhite
+    pluswhite,
+    logout
 }
 
 export default Svg;

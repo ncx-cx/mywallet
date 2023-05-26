@@ -669,7 +669,7 @@ a.accot {
   #header-newmobile{
     display: block;
     position: relative;
-    padding: 10px 0;
+    padding: 10px 15px;
     width: 100%!important;
 
   }
@@ -698,6 +698,14 @@ a.accot {
   .mobile-toogle {
     text-align: left!important;
     width: fit-content;
+    display: flex !important;
+  }
+  .mplo {
+    display: flex !important;
+  }
+  .mobile-logo {
+    display: flex;
+    z-index: 1;
   }
   button.hamburger {
     background: none!important;
@@ -723,7 +731,7 @@ a.accot {
     display: block;
   }
   #header-newmobile.header-expanded.avtive .mplo {
-    display: none;
+    display: none !important;
   }
   .navigation-menu {
     margin-left: auto;
@@ -731,11 +739,11 @@ a.accot {
   .navigation-menu.expanded {
     background: #000;
     height: 100vh;
-    left: -20px;
-    padding: 70px 40px 0;
+    left: 0px;
+    padding: 70px 40px 40px 40px;
     position: absolute;
     top: 0px;
-    width: 100%;
+    width: -webkit-fill-available;
   }
   .navigation-menu ul {
     display: none;
@@ -743,6 +751,7 @@ a.accot {
   .navigation-menu.expanded ul {
     display: block;
     padding: 0;
+    margin-top: 0px;
   }
   .navigation-menu.expanded ul li {
     margin: 0!important;
@@ -775,13 +784,136 @@ a.accot {
     border: 1.5px solid #5ed3f0!important;
     color: #fff!important;
     border-radius: 10px;
-    width: 100% !IMPORTANT;
+    width: 100% !important;
     height: 48px !important;
     display: flex !important;
     align-items: center;
     justify-content: center;
+    font-size: 16px !important;
   }
   #header-row .css-hyum1k-MuiToolbar-root{
     padding: 0px !important;
+  }
+  #header-newmobile.header-expanded.avtive {
+    background: #000000;
+    height: 100vh;
+  }
+  .hgfds {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  .account_toggle .hamburger img{
+    transform: rotate(180deg);
+  }
+  .tresdv{
+    display: none;
+  }
+  .account_toggle .tresdv.mnbvs {
+    display: block;
+  }
+  .account_toggle .qwer.sdf {
+    display: none;
+  }
+  .navigation-menu.expanded ul li details {
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    margin-bottom: 20px;
+    padding: 18px 0px;
+  }
+  .navigation-menu.expanded ul li details summary {
+    align-items: center;
+    border: none;
+    display: flex;
+    font-family: 'urbanist-medium';
+    font-size: 18px;
+    justify-content: space-between;
+    line-height: 24px;
+    padding: 0!important;
+  }
+  .navigation-menu.expanded ul li details span.red {
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: all .4s cubic-bezier(1,1,1,1);
+  }
+  .navigation-menu.expanded ul li details[open] span.red {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: all .4s cubic-bezier(1,1,1,1);
+  }
+  .contt ul li {
+    text-align: left !important;
+    padding: 10px 0px !important;
+  }
+  .navigation-menu.expanded ul li details .contt ul li a {
+    width: 100% !important;
+    text-align: left !important;
+    font-size: 16px !important;
+    font-family: 'urbanist-medium' !important;
+    color: rgba(255,255,255,0.7);
+    line-height: 24px !important;
+  }
+  .navigation-menu.expanded ul li details .contt ul li a:hover{
+    color: #FFFFFF !important;
+  }
+  .navigation-menu.expanded ul li details .contt ul{
+    padding-left: 20px !important;
+  }
+  .account_toggle .navigation-menu.expanded {
+    padding: 80px 10px 0px 10px !important;
+    min-height: 100vh !important;
+    max-height: 200vh !important;
+    overflow-y: scroll;
+  }
+  .navigation-menu.expanded ul li details .contt {
+    margin-top: 20px;
+  }
+  .account_toggle .navigation-menu.expanded a {
+    font-size: 18px !important;
+    width: 100%;
+    text-align: left !important;
+    line-height: 26px !important;
+  }
+  .account_toggle .navigation-menu.expanded li{
+    padding: 15px 0px !important;
+  }
+  .account_toggle .navigation-menu.expanded ul{
+    margin-top: 0px !important;
+  }
+  .werv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .pr0-v {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .hgsw {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #5ED3F0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hgsw img {
+    width: 15px;
+  }
+  .resdf-fde p {
+    font-size: 14px;
+    font-family: 'urbanist-regular';
+  }
+  .resdf-fde span{
+    font-size: 12px;
+    font-family: 'urbanist-regular';
+    color: rgba(255, 255, 255, 0.6);
+  }
+  img.log-out {
+    width: 16px;
   }
 }
