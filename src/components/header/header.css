@@ -862,7 +862,7 @@ a.accot {
     padding-left: 20px !important;
   }
   .account_toggle .navigation-menu.expanded {
-    padding: 80px 15px 0px 15px !important;
+    padding: 80px 15px 30px 15px !important;
     min-height: 100vh !important;
     max-height: 200vh !important;
     overflow-y: scroll;

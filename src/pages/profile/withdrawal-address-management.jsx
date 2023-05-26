@@ -11,7 +11,7 @@ function WithdrawalAddressManagement()
             <div className="basicc">
                 <div className="container">
                     <div className="head_btnss">
-                        <Button href="/profile_settings" className="mml-w">Profile/Settings</Button>
+                        <Button href="/profile_settings" className="mml-w">Profile</Button>
                         <Button href="/identification" className="mml-w ogds">Verification</Button>
                         <Button href="/security" className="mml-w">Security</Button>
                     </div>

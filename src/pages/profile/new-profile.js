@@ -10,7 +10,7 @@ function TestTabs() {
     const DEFAULT_ACTIVE_TAB = "profile_settings";
     const tabs = {
         "profile_settings": {
-            title: "Profile/Settings",
+            title: "Profile",
             content: (
                 <ProfileTab />
             )

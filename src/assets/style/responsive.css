@@ -94,4 +94,519 @@
         justify-content: space-between;
         margin: 0 auto;
     }
+    .uikw .hit-gsf{
+        padding: 30px 20px;
+    }
+    .uikw .unitf{
+        margin-top: 0px;
+    }
+    .hit-gsf .dtwe{
+        width: 100% !important;
+        overflow-x: scroll;
+        gap: unset !important;
+        justify-content: space-between !important;
+        border-bottom: 1px solid rgba(255,255,255,0.15);
+    }
+    .uikw.active button.teeww {
+        background: none !important;
+        padding: 0px !important;
+        border: none !important;
+        min-height: unset !important;
+        min-width: fit-content !important;
+        border-radius: 0px !important;
+        text-align: left !important;
+        justify-content: flex-start !important;
+        padding-bottom: 6px !important;
+    }
+    .uikw.active button.teeww.active{
+        box-shadow: none !important;
+        border-bottom: 1px solid #FFFFFF !important;
+    }
+    .hit-gsf .uikw {
+        margin-top: 30px !important;
+    }
+    .uhgh label{
+        font-size: 10px !important;
+    }
+    .gqwr{
+        flex-direction: column !important;
+    }
+    .gqwr .input-container{
+        width: 100% !important;
+        gap: 0px !important;
+        justify-content: space-between !important;
+    }
+    .gqwr .input-container .uhgh {
+        width: 48% !important;
+    }
+    .pcikre{
+        margin-top: 5px !important;
+    }
+    .pcikre input{
+        width: -webkit-fill-available !important;
+        font-size: 12px !important;
+    }
+    .srch-g {
+        width: 100%;
+        margin-top: 15px;
+        justify-content: space-between;
+        gap: unset;
+    }
+    .head-er ul{
+        overflow-y: scroll;
+        gap: 45px;
+    }
+    .head-er ul li {
+        width: 100%;
+        min-width: fit-content;
+    }
+    /* ************************************ Profile Settings ************************************************ */
+    .profile {
+        padding: 30px 0px;
+    }
+    button.pf_btn, ul.nav.nav-tabs a.nav-link {
+        font-size: 14px !important;
+        min-width: 110px !important;
+        min-height: 36px !important;
+    }
+    ul.nav.nav-tabs{
+        justify-content: space-between;
+        padding: 0px 20px;
+        gap: unset !important;
+    }
+    .profile .container {
+        padding: 0px;
+    }
+    .rre-ds {
+        padding: 30px 20px;
+    }
+    .res h1{
+        width: 45px !important;
+        height: 45px !important;
+        font-size: 20px !important;
+    }
+    .rre-ds{
+        gap: 15px !important;
+    }
+    .wlcm-2{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    .wlcm p{
+        font-size: 16px !important;
+        font-family: 'urbanist-medium' !important;
+    }
+    .wlcm span, .wlcm-2 p, .wlcm-2 a{
+        font-size: 12px;
+    }
+    .wlcm span img{
+        width: 10px;
+        margin-right: 5px;
+    }
+    .wlcm-2 a img {
+        width: 6px;
+    }
+    p.uid:before{
+        display: none;
+    }
+    p.uid{
+        padding: 0px !important;
+        gap: 5px !important;
+        line-height: 10px !important;
+    }
+    p.uid span,  p.uid {
+        font-size: 8px !important;
+        font-family: 'urbanist-regular' !important;
+    }
+    .profile_form .rtty .rwq{
+        display: none;
+    }
+    .profile_form .rtty .dqwq{
+        width: 100%;
+        padding: 0px !important;
+    }
+    .profile_form .rtty{
+
+    }
+    .profile_form{
+        padding: 30px 20px;
+    }
+    .profile_form .dqwq h1{
+        font-size: 22px !important;
+        font-family: 'urbanist-medium';
+    }
+    #upload .MuiAvatar-root{
+        width: 60px !important;
+        height: 60px !important;
+    }
+    #upload button{
+        padding: 10px;
+    }
+    #upload input{
+        padding: 0px !important;
+        margin-left: 10px !important;
+    }
+    .settings form .flex label input{
+        font-size: 12px !important;
+        height: 40px;
+        margin-top: 6px !important;
+    }
+    .settings form .flex{
+        gap: unset;
+        justify-content: space-between;
+    }
+    .settings form .flex label{
+        font-size: 12px !important;
+        width: 48% !important;
+        margin-bottom: 20px;
+    }
+    .country_dropdown lable{
+        font-size: 12px;
+    }
+    select#country{
+        font-size: 12px !important;
+        height: 40px;
+        margin-top: 6px !important;
+    }
+    .country_dropdown {
+        width: 48%;
+    }
+    .authentication{
+        padding: 30px 20px;
+    }
+    .authentication h1 {
+        font-size: 22px;
+        font-family: 'urbanist-medium' !important;
+        font-weight: 400 !important;
+    }
+    .col.img img {
+        width: 22px;
+        height: auto;
+    }
+    .row.inner{
+        column-gap: 10px;
+    }
+    .col.txt h3 {
+        font-size: 14px;
+        margin-bottom: 2px;
+        gap: 5px;
+    }
+    .col.txt p {
+        font-size: 10px;
+    }
+    .col.txt h3 img {
+        width: 10px;
+    }
+    .col.first {
+        width: 65%;
+    }
+    .col.second p, button.open-modal, .col.second a{
+        font-size: 12px !important;
+    }
+    .col.second .inner {
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-end;
+    }
+    .col.img {
+        width: 20px;
+        height: 20px;
+    }
+    .authentication .row .row.inner {
+        justify-content: unset;
+    }
+    .fsrr{
+        padding: 0px;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-end;
+        margin-bottom: 12px;
+    }
+    .fsrr:after{
+        display: none;
+    }
+    .history{
+        padding: 30px 20px;
+    }
+    button.hist_btn{
+        font-size: 12px;
+        padding: 0px 0px 15px 0px;
+    }
+    .history .buttons{
+        justify-content: space-between;
+    }
+    .hist__cont_tabs {
+        margin-top: 20px;
+    }
+    .login-history .table-head ul li, .login-history .table-body ul li{
+        font-size: 10px;
+        min-width: 100px;
+    }
+    .table {
+        margin-bottom: 30px;
+        overflow-y: scroll;
+    }
+    .pagination a {
+        font-size: 12px;
+    }
+    ul.pagination li a img {
+        width: 7px;
+    }
+    .table .table-body ul {
+        margin-top: 20px;
+    }
+    .open-modal:after, .col.second a:after{
+        top: 18px !important;
+        height: 1.5px !important;
+    }
+    
+    /* **************************** Mobile Bound Phone *************************************** */
+    body #applynow_form{
+        padding: 30px 20px !important;
+        width: 85% !important;
+    }
+    .heading_corss .hed button, .heading_corss .hed button img {
+        width: 14px;
+        height: 14px;
+    }
+    body .heading_corss .hed h2 {
+        font-size: 18px !important;
+    }
+    .heading_corss .container {
+        padding: 0px;
+    }
+    button.get-code{
+        font-size: 12px;
+    }
+    .form-group input{
+        height: 40px !important;
+        font-size: 12px !important;
+    }
+    .heading_corss .hed{
+        margin-bottom: 20px !important;
+    }
+    button.form-submit {
+        height: 40px !important;
+        font-size: 14px !important;
+    }
+    button.get-code{
+        font-size: 12px !important;
+    }
+    
+    /* ******************************* Security Device Manager *********************************************** */
+    .device-maanger{
+        padding: 30px 20px !important;
+    }
+    a.back-to-home h1 {
+        font-size: 14px;
+    }
+    .add_key {
+        width: 120px !important;
+        height: 40px !important;
+        font-size: 12px !important;
+        gap: 6px !important;
+    }
+    .add_key img {
+        width: 12px;
+    }
+    .head a.back-to-home{
+        gap: 7px !important;
+    }
+    .head a.back-to-home img {
+        width: 12px;
+    }
+    .message_dis{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .message_dis p {
+        font-size: 12px;
+    }
+
+    /* ********************************* Withdrawal Protection ********************************** */
+    body #withdrawal_protection {
+        width: 85% !important;
+        padding: 30px 20px !important;
+    }
+    .checktime-list label {
+        font-size: 12px !important;
+    }
+    .checktime input{
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .whitelist-time p {
+        font-size: 14px !important;
+    }
+    .checktime-list .checktime{
+        gap: 5px !important;
+    }
+    .instruction ol{
+        margin: 30px 0px !important;
+        padding: 0px !important;
+    }
+    .instruction ol li{
+        font-size: 12px !important;
+    }
+    .subm_bt{
+        gap: 10px !important;
+    }
+    .subm_bt button.cancel, body #withdrawal_protection button.form-submit{
+        max-width: unset !important;
+        min-width: unset !important;
+        width: 50% !important;
+        height: 40px !important;
+        font-size: 12px !important;
+    }
+
+    /* ********************************* Withdrawal Address Management ********************************** */
+    .basicc{
+        padding: 30px 0px;
+    }
+    a.mml-w {
+        font-size: 14px !important;
+        min-width: 110px !important;
+        min-height: 36px !important;
+    }
+    .basicc .container {
+        padding: 0px;
+    }
+    .head_btnss{
+        justify-content: space-between;
+        padding: 0px 20px !important;
+    }
+    p.qwe-fsdf {
+        font-size: 13px;
+        gap: 10px !important;
+    }
+    .switch{
+        width: 30px;
+        height: 16px;
+    }
+    .slider:before{
+        height: 10px;
+        width: 10px;
+    }
+    .filter-dat{
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+        align-items: end;
+    }
+    .select_ff{
+        width: 100%;
+        gap: unset !important;
+        justify-content: space-between !important;
+    }
+    .alltoken {
+        width: 48%;
+    }
+    .alltoken select{
+        width: 100% !important;
+        height: 40px !important;
+        font-size: 12px !important;
+    }
+
+    /* *************************************** 2FA Verification ************************************************** */
+    .hfsf{
+        padding: 30px 20px !important;
+    }
+    a.hwegb img {
+        width: 12px;
+    }
+    a.hwegb  {
+        font-size: 14px !important;
+        gap: 7px !important;
+    }
+    h1.enable-2fa {
+        font-size: 22px !important;
+        margin-top: 30px;
+    }
+    .RSPBprogressBar{
+        width: 90% !important;
+    }
+    .RSPBprogressBar .indexedStep {
+        width: 20px;
+        height: 20px;
+        font-size: 12px !important;
+    }
+
+    /* ************************************* Verification Screens  **************************************** */
+    form.measure h2 {
+        width: 70% !important;
+        font-size: 18px !important;
+    }
+    .app_stor{
+        width: 80% !important;
+    }
+    .bvedfc{
+        width: 100% !important;
+    }
+    form.measure input{
+        height: 40px !important;
+    }
+    .qr_code{
+        width: 100% !important;
+        margin-top: 30px !important;
+    }
+    .gbnds{
+        width: 100px !important;
+        height: 100px !important;
+        padding: 5px !important;
+    }
+    .qr_code .wert {
+        width: 100px !important;
+        height: 100px !important;
+        margin-bottom: 20px !important;
+    }
+    .copy_tvt p {
+        font-size: 12px;
+    }
+    .copy_tvt img {
+        width: 16px !important;
+    }
+    span.fsd_fd{
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+    .copy_tvt{
+        margin-bottom: 10px !important;
+    }
+    .gwrgb {
+        width: 100% !important;
+    }
+    body .dsdf label input {
+        width: unset !important;
+        height: 40px !important;
+        font-size: 12px !important;
+        min-width: -webkit-fill-available;
+    }
+    .qr__bb{
+        width: 100% !important;
+    }
+    .qr__bb button {
+        position: absolute;
+        right: 0px;
+        height: 40px;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+    body .jnhbv{
+        width: 100% !important;
+    }
+    .jnhbv p {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
