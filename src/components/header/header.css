@@ -1,8 +1,10 @@
 .ffffff_s{
-    height: 1200px;
+  height: 1200px;
 }
 #header-row{
-    background: #000000;
+  background: #000000;
+  z-index: 1;
+  position: relative;
 }
 #header-row.stick_header {
   background: #000000 !important;
@@ -552,6 +554,81 @@ a.accot {
 .icons_div a, .storeicons {
     display: flex;
 }
+
+div#cxvb {
+  background-color: #fff;
+  border-radius: 8px;
+  bottom: auto;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.15);
+  cursor: pointer;
+  display: none;
+  min-width: 140px;
+  overflow: hidden;
+  padding: 10px 10px;
+  position: absolute;
+  right: 0;
+  top: 47px;
+}
+.fsdvc {
+  display: flex;
+  flex-direction: column;
+}
+.fsdvc a {
+  color: #000000;
+}
+.ngfv {
+  padding: 14px 0px;
+}
+.ngfv:hover div#cxvb{
+  display: block;
+}
+.mjhgf p {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'urbanist-regular';
+  display: flex;
+}
+.mjhgf p:nth-child(2){
+  margin-top: 3px;
+}
+.mjhgf p span{
+  color: #000000;
+  font-size: 12px;
+}
+.fsdvc a.mjhgf {
+  padding: 0px 10px !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  flex-direction: column !important;
+  gap: 3px !important;
+}
+.fsdvc a.mjhgf:hover p, .fsdvc a.mjhgf:hover p span{
+  color: #5ED3F0 !important;
+}
+.fsdvc a {
+  color: #000000;
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 10px 10px;
+}
+.fsdvc a:last-child{
+  border: none;
+}
+.fsdvc a img {
+  width: 14px;
+  filter: grayscale(100%);
+}
+.fsdvc a:hover{
+  color: #5ED3F0;
+}
+.fsdvc a:hover img{
+  filter: grayscale(1%);
+}
+
+
 
 @media screen and (max-width: 1455px){
     #header-row .css-hyum1k-MuiToolbar-root{

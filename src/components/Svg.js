@@ -90,6 +90,7 @@ import eye from '../assets/images/svgs/eye.svg';
 import faceauthentication from '../assets/images/svgs/face-authentication.svg';
 import govtid from '../assets/images/svgs/govt-id.svg';
 import help from '../assets/images/svgs/help.svg';
+import support from '../assets/images/svgs/support.svg';
 import info from '../assets/images/svgs/info.svg';
 import left from '../assets/images/svgs/left.svg';
 import more from '../assets/images/svgs/more.svg';
@@ -107,6 +108,11 @@ import eyeon from '../assets/images/svgs/eye-on.svg';
 import eyeoff from '../assets/images/svgs/eye-off.svg';
 import pluswhite from '../assets/images/svgs/plus-white.svg';
 import logout from '../assets/images/svgs/logout.svg';
+import security from '../assets/images/svgs/security.svg';
+import api from '../assets/images/svgs/api.svg';
+import invitefriends from '../assets/images/svgs/invite-friends.svg';
+import logoutblack from '../assets/images/svgs/logout-black.svg';
+import verificationblack from '../assets/images/svgs/verification-black.svg';
 
 const Svg = {
     inch,
@@ -199,6 +205,7 @@ const Svg = {
     faceauthentication,
     govtid,
     help,
+    support,
     info,
     left,
     more,
@@ -215,7 +222,12 @@ const Svg = {
     eyeon,
     eyeoff,
     pluswhite,
-    logout
+    logout,
+    security,
+    api,
+    invitefriends,
+    logoutblack,
+    verificationblack,
 }
 
 export default Svg;

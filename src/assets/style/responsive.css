@@ -715,4 +715,7 @@ details summary::-webkit-details-marker {
     .support_bdy .add_key {
         width: 130px !important;
     }
+    .verification{
+        padding-bottom: 50px;
+    }
 }

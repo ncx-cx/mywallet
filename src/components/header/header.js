@@ -154,8 +154,23 @@ export default function Header() {
             </div>
             <div className="login-buttons">
               <div className="accnt_div">
-                <Button href="https://ncx.cx/wallet" className="wallet">Wallet</Button>
-                <a href="/profile_settings" className="accot"><img src={Svg.account} alt="ncx"/></a>
+                <Button href="/" className="wallet">Wallet</Button>
+                <div className="ngfv">
+                  <a id="mmjhyt" href="/profile_settings" className="accot"><img src={Svg.account} alt="ncx"/></a>
+                  <div id="cxvb">
+                    <div className="fsdvc">
+                      <a href="/profile_settings" className="mjhgf">
+                        <p>bil***@ncx.cx</p>
+                        <p>UID: <span>3001791</span></p>
+                      </a>
+                      <a href="/security"><img src={Svg.security} alt="ncx"/>Security</a>
+                      <a href="/identification"><img src={Svg.verificationblack} alt="ncx"/>Verification</a>
+                      <a href="#"><img src={Svg.api} alt="ncx"/>API</a>
+                      <a href="#"><img src={Svg.invitefriends} alt="ncx"/>Invite Friends</a>
+                      <a href="#"><img src={Svg.logoutblack} alt="ncx"/>Log out</a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="icons_div">
                 <div className="downloadQRCode">
@@ -176,7 +191,7 @@ export default function Header() {
                   </div>
                 </div>
                 <a href="/"><img src={Svg.notification} alt="ncx" /></a>
-                <a href="/support"><img src={Svg.help} alt="ncx" /></a>
+                <a href="/support"><img src={Svg.support} alt="ncx" /></a>
                 <div className="translate_lng">
                   <div id="tran_lang">
                     <img src={Svg.global} alt="ncx"/>
@@ -229,10 +244,10 @@ export default function Header() {
                         <a href="https://trade.ncx.cx/" target="_blank" rel="noreferrer">Spot Trading</a>
                       </li>
                       <li>
-                        <a href="/derivatives">Derivatives</a>
+                        <a href="https://ncx.cx/derivatives">Derivatives</a>
                       </li>
                       <li>
-                        <a href="/markets">Markets</a>
+                        <a href="https://ncx.cx/markets">Markets</a>
                       </li>
                       <li>
                         <a href="https://bsc.ncx.cx/swap" target="_blank" rel="noreferrer">DEX</a>
@@ -244,13 +259,13 @@ export default function Header() {
                         <a href="https://ncx.cx/wallet">NCX DeFi Wallet</a>
                       </li>
                       <li>
-                        <a href="/ncx-token">NCX Token</a>
+                        <a href="https://ncx.cx/ncx-token">NCX Token</a>
                       </li>
                       <li>
-                        <a href="/rewards">Rewards</a>
+                        <a href="https://ncx.cx/rewards">Rewards</a>
                       </li>
                       <li>
-                        <a href="/market-insights">News & Insights</a>
+                        <a href="https://ncx.cx/market-insights">News & Insights</a>
                       </li>
                       <li>
                         <a className="download_app" href="#" target="_blank" rel="noreferrer">Download NCX mobile App</a>
@@ -267,7 +282,7 @@ export default function Header() {
                   className="header-logo"
                   sx={{ mr: 2 }}
                 >
-                <a href="https://ncx.cx/"><img src={Svg.Logo} alt="NCX-Logo" /></a>
+                <a href="/"><img src={Svg.Logo} alt="NCX-Logo" /></a>
                 </IconButton>
                 </div>
               </div>
