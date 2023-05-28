@@ -4,6 +4,11 @@ details summary::-webkit-details-marker {
 .mobile_div {
     display: none;
 }
+@media screen and (min-width: 801px) and (max-width: 1280px){
+    .container{
+        padding: 0px 20px !important;
+    }
+}
 @media screen and (max-width: 800px){
     .Wallet-section .yrqf{
         padding: 25px 20px;
@@ -67,10 +72,53 @@ details summary::-webkit-details-marker {
         margin-top: 3px;
         padding: 25px 15px;
     }
-    .assets table tbody tr td:last-child, .assets table thead tr th:last-child{
+    .assets table tbody tr td:nth-child(4), .assets table thead tr th:nth-child(4){
         display: none;
     }
-    .assets table tbody tr td:nth-child(4), .assets table thead tr th:nth-child(4){
+    .sdfvdbb {
+        background-color: #fff;
+        border-radius: 8px;
+        bottom: auto;
+        box-shadow: 0 1px 6px 0 rgba(0,0,0,.15);
+        display: none;
+        min-width: 50px;
+        overflow: hidden;
+        padding: 10px 10px;
+        position: absolute;
+        right: 0;
+        top: 41px;
+        z-index: 1;
+    }
+    .sdfvdbb a.wit {
+        padding: 0px;
+        color: #000000;
+        font-size: 12px;
+        width: fit-content;
+        height: 20px;
+        margin: 0px;
+        justify-content: flex-end;
+    }
+    .sdfvdbb a.wit:hover{
+        background: none;
+        color: #5ED3F0 !important;
+        padding: 0px !important;
+        border: none !important;
+    }
+    .mobiel_dop:hover .sdfvdbb{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .dewr{
+        display: none;
+    }
+    .mobiel_dop{
+        display: block !important;
+        width: 5px;
+        margin: 0 auto;
+        margin-right: 0px;
+        padding: 13px 0px;
+    }
+    .assets table tbody tr td:nth-child(5), .assets table thead tr th:nth-child(5){
         text-align: end;
     }
     .assets table tbody tr td:nth-child(3), .assets table thead tr th:nth-child(3){

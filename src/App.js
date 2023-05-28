@@ -9,6 +9,8 @@ import TestTabs from './pages/profile/new-profile';
 import BasicVerification from './components/verification/basic-verification';
 import WalletPage from './pages/wallet/wallet';
 import GoogleAuth from './pages/2FA/fa';
+import DepositPage from './pages/deposit/deposit';
+import WithdrawPage from './pages/withdraw/withdraw';
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
           <Route path='/:profile_settings/?' element={<TestTabs />} />
           <Route path='/auth/key/upload' element={<BasicVerification />} />
           <Route path='/google-auth' element={<GoogleAuth />} />
+          <Route path='/deposit' element={<DepositPage />} />
+          <Route path='/withdraw' element={<WithdrawPage />} />
         </Routes>
       </BrowserRouter>
 );

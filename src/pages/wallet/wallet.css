@@ -250,7 +250,7 @@ td.wer h3{
     padding: 0px;
     height: inherit;
 }
-.assets table thead{
+.assets table thead tr th{
     margin-bottom: 20px;
 }
 .assets table tbody tr{
@@ -311,7 +311,7 @@ table {
 }
 .assets {
     background: #131313;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 30px 40px;
     border-radius: 10px;
 }
@@ -432,4 +432,7 @@ a.dwnld {
 .gdcvb input.srcgd:focus, .gdcvb input.srcgd:focus-visible{
     outline: none;
     box-shadow: none;
+}
+.mobiel_dop{
+    display: none;
 }

@@ -35,9 +35,9 @@ function AssetsTable()
                 <thead>
                     <tr>
                         <th>Token</th>
-                        <th>Equity</th>
-                        <th>Cash Balance</th>
-                        <th>Unsettled PNL</th>
+                        <th>Balance</th>
+                        <th>USD Value</th>
+                        <th>In Order</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -50,7 +50,6 @@ function AssetsTable()
                         </td>
                         <td>
                             <p>{item.equity}</p>
-                            <span>{item.equity_in_usd}</span>
                         </td>
                         <td>
                             <p>{item.cash_balance}</p>
@@ -58,9 +57,19 @@ function AssetsTable()
                         <td>
                             <p>{item.unsettled_pnl}</p>
                         </td>
-                        <td>
-                            <Button href="#" className="wit">Withdraw</Button>
-                            <Button href="#" className="dpst">Deposit</Button>
+                        <td className="ascdfwe">
+                            <div className="dewr">
+                                <Button href="/withdraw" className="wit">Withdraw</Button>
+                                <Button href="/deposit" className="dpst">Deposit</Button>
+                            </div>
+                            <div className="mobiel_dop">
+                                <img src={Svg.editdropdown} alt="ncx"/>
+                                <div className="sdfvdbb">
+                                    <Button href="/withdraw" className="wit">Withdraw</Button>
+                                    <Button href="/deposit" className="wit">Deposit</Button>
+                                    <Button href="#" className="wit">Trade</Button>
+                                </div>
+                            </div>
                         </td>
                     </tr>
                 ))}

@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import './wallet.css';
 import Header from '../../components/header/header';
 import Sectionone from '../../components/wallet/section1';
-import UnifiedAccount from "../../components/wallet/account";
+// import UnifiedAccount from "../../components/wallet/account";
 import AssetsTable from "../../components/wallet/assets";
 import AssetsHistory from "../../components/wallet/history";
 
@@ -39,11 +39,11 @@ function WalletPage()
                                 Assets History
                                 </button>
                             </div>
-                            <a href="/withdraw-address-management">Withdrawal Address</a>
+                            {/* <a href="/withdraw-address-management">Withdrawal Address</a> */}
                         </div>
                         <div className="hdfdb">
                             <div className={toggleState === 1 ? "uikw  active" : "uikw"}>
-                                <UnifiedAccount />
+                                {/* <UnifiedAccount /> */}
                                 <AssetsTable />
                             </div>
                             <div className={toggleState === 2 ? "uikw  active" : "uikw"}>

@@ -113,6 +113,8 @@ import api from '../assets/images/svgs/api.svg';
 import invitefriends from '../assets/images/svgs/invite-friends.svg';
 import logoutblack from '../assets/images/svgs/logout-black.svg';
 import verificationblack from '../assets/images/svgs/verification-black.svg';
+import FAQicon from '../assets/images/svgs/faq-icon.svg';
+import editdropdown from '../assets/images/svgs/edit-dropdown.svg';
 
 const Svg = {
     inch,
@@ -228,6 +230,8 @@ const Svg = {
     invitefriends,
     logoutblack,
     verificationblack,
+    FAQicon,
+    editdropdown
 }
 
 export default Svg;

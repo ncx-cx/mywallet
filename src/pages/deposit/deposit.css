@@ -1,0 +1,234 @@
+.sdfv {
+    padding: 50px 0px;
+}
+.qwerg {
+    background: #121212;
+    padding: 40px;
+}
+.cvasd a {
+    font-size: 26px;
+    font-family: 'urbanist-medium';
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.qwerg .row {
+    display: flex;
+    justify-content: space-between;
+}
+.qwerg .row .col:nth-child(1){
+    width: 60%;
+}
+.qwerg .row .col:nth-child(2){
+    width: 30%;
+}
+.col.faqqdcc .vsbn h1 {
+    font-size: 22px;
+    font-family: 'urbanist-medium';
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.col.faqqdcc .vsbn a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 10px;
+    font-size: 14px;
+    font-family: 'urbanist-medium';
+    font-weight: 400;
+}
+
+/* *****************************************8 */
+.qwe__bd {
+    display: flex;
+    align-items: flex-start;
+}
+.qwe__bd p {
+    font-size: 14px;
+    font-family: 'urbanist-regular';
+    color: rgba(255,255,255,0.6);
+}
+.plkm {
+    width: 80%;
+}
+.plkm label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'urbanist-regular';
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+}
+.plkm label select {
+    background: none;
+    color: #FFFFFF;
+    height: 45px;
+    border-radius: 5px;
+    padding: 0px 15px;
+    margin-top: 10px;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+.plkm label select option {
+    color: #FFFFFF !important;
+    background-color: #1A1A1A;
+}
+.plkm label select:hover, .plkm label select:focus, .plkm label select:focus-visible{
+    outline: none !important;
+}
+.qwe__bd .col {
+    width: 20% !important;
+    padding-top: 10px;
+}
+.sdf{
+    margin-top: 30px;
+}
+.qwe__bd.sdf input {
+    width: 60px;
+    background: none;
+    color: #FFFFFF;
+    border: 1px solid #5ED3F0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+}
+.code-q {
+    padding: 20px 0px;
+}
+.code-q img {
+    max-width: 130px;
+    padding: 7px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.bvsd {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.bvsd p {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.infos {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
+}
+.infos .col {
+    width: 38% !important;
+}
+.infos .col span {
+    color: #FFFFFF;
+    margin-top: 4px;
+    display: flex;
+}
+.asdfvwe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.asdfvwe p{
+    color: #FFFFFF !important;
+    margin-top: 4px !important;
+}
+.asdfvwe span {
+    font-size: 14px !important;
+    font-family: 'urbanist-regular';
+    color: #5ED3F0 !important;
+    cursor: pointer;
+}
+.insetus ul {
+    padding-left: 10px;
+    margin-top: 25px !important;
+}
+.insetus ul li {
+    font-family: 'urbanist-regular';
+    color: rgba(255,255,255,0.6);
+    font-size: 14px !important;
+    list-style-type: disc;
+    padding: 3px 0px;
+}
+.vervcd .select_acount {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.vervcd .select_acount input {
+    width: 18px;
+    height: 20px;
+    margin-top: 0px;
+}
+.vervcd .select_acount label {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'urbanist-regular';
+}
+body #csdve.subm_bt.fef button.form-submit {
+    min-width: unset !important;
+    max-width: unset !important;
+    width: -webkit-fill-available !important;
+}
+
+
+
+
+.ewrthg input[type="text"] {
+    width: -webkit-fill-available !important;
+    height: 45px !important;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 0px 15px;
+    border: 1px solid rgba(255,255,255,0.15) !important;
+}
+.ewrthg input[type="text"]:focus, .ewrthg input[type="text"]:hover, .ewrthg input[type="text"]:focus-visible{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.ewrthg input[type="text"]:hover{
+    border-color: #5ED3F0 !important;
+}
+.aszz {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ewrthg {
+    margin-top: 20px;
+}
+p.ssv {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.aszz p {
+    font-size: 12px !important;
+}
+.aszz p:last-child{
+    color: #5ED3F0 !important   ;
+}
+.plkm .select_acount {
+    margin-bottom: 20px !important;
+}
+.aS__v a {
+    width: 100%;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'urbanist-regular';
+    font-weight: 200;
+    background: #5ED3F0;
+    height: 45px;
+    opacity: 0.6;
+}
+.aS__v a:hover{
+    border: 1px solid #5ED3F0;
+}

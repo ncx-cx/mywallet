@@ -41,8 +41,8 @@ function WalletSectionOne()
                 </div>
                 <div className="col">
                     <div className="thsq">
-                        <Button href="#" className="treg">Withdraw</Button>
-                        <Button href="#" className="uuy">Deposit</Button>
+                        <Button href="/withdraw" className="treg">Withdraw</Button>
+                        <Button href="/deposit" className="uuy">Deposit</Button>
                     </div>
                 </div>
             </div>
