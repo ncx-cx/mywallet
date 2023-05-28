@@ -81,20 +81,24 @@ details summary::-webkit-details-marker {
         bottom: auto;
         box-shadow: 0 1px 6px 0 rgba(0,0,0,.15);
         display: none;
-        min-width: 50px;
+        min-width: 60px;
         overflow: hidden;
         padding: 10px 10px;
         position: absolute;
         right: 0;
-        top: 41px;
+        top: 35px;
         z-index: 1;
+    }
+    .mobiel_dop img {
+        width: 5px;
+        height: 20px;
     }
     .sdfvdbb a.wit {
         padding: 0px;
         color: #000000;
-        font-size: 12px;
+        font-size: 14px;
         width: fit-content;
-        height: 20px;
+        height: 24px;
         margin: 0px;
         justify-content: flex-end;
     }
@@ -113,7 +117,7 @@ details summary::-webkit-details-marker {
     }
     .mobiel_dop{
         display: block !important;
-        width: 5px;
+        width: 8px;
         margin: 0 auto;
         margin-right: 0px;
         padding: 13px 0px;
