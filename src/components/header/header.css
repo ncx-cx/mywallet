@@ -839,7 +839,7 @@ div#cxvb {
   }
   #header-row {
     background: #000000;
-    z-index: 1;
+    z-index: 9;
     position: relative;
   }
   .navigation-menu.expanded ul li a {

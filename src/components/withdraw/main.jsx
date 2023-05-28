@@ -8,7 +8,7 @@ function WithdrawalScreen()
     return(
         <div className="mnbvcc">
             <div className="cvasd">
-                <a href="/"><img src={Svg.backarrow} alt="ncx"/>Deposit</a>
+                <a href="/"><img src={Svg.backarrow} alt="ncx"/>Withdraw</a>
             </div>
             <div className="qwerg">
                 <div className="row">
