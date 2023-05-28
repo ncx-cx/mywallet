@@ -83,8 +83,17 @@ details summary::-webkit-details-marker {
     }
     .Wallet-section .assets{
         margin-top: 3px;
-        padding: 25px 5px;
+        padding: 10px 5px 25px 5px;
         background: transparent !important;
+    }
+    .search_bar input{
+        font-size: 12px !important;
+    }
+    .search_bar label img{
+        width: 12px !important;
+    }
+    .qwefv{
+        gap: 4px;
     }
     .assets table tbody tr td:nth-child(4), .assets table thead tr th:nth-child(4){
         display: none;
@@ -251,6 +260,15 @@ details summary::-webkit-details-marker {
         width: 100%;
         min-width: fit-content;
     }
+    .qwefv a.zero, .qwefv a.active{
+        font-size: 10px !important;
+        padding: 0px 10px !important;
+        height: 28px !important;
+        min-width: max-content;
+    }
+
+
+
     /* ************************************ Profile Settings ************************************************ */
     .profile {
         padding: 30px 0px 50px 0px;
