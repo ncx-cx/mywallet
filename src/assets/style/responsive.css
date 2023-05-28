@@ -10,8 +10,21 @@ details summary::-webkit-details-marker {
     }
 }
 @media screen and (max-width: 800px){
+    /* ************************************* Wallet ************************************************** */
+    .Wallet-section .container {
+        padding: 0px;
+    }
+    .unitf {
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
     .Wallet-section .yrqf{
-        padding: 25px 20px;
+        border: none;
+        border-radius: 0px;
+        border-bottom: 1px solid rgba(255,255,255,0.15);
+    }
+    .Wallet-section .yrqf{
+        padding: 25px 30px;
     }
     .Wallet-section .rtwfg p {
         font-size: 14px;
@@ -123,11 +136,24 @@ details summary::-webkit-details-marker {
         padding: 13px 0px;
         position: relative;
     }
-    .assets table tbody tr td:nth-child(5), .assets table thead tr th:nth-child(5){
-        text-align: end;
+    .assets table tbody tr td:nth-child(1), .assets table thead tr th:nth-child(1){
+        width: 32% !important;
+    }
+    .assets table tbody tr td:nth-child(2), .assets table thead tr th:nth-child(2){
+        width: 32% !important;
     }
     .assets table tbody tr td:nth-child(3), .assets table thead tr th:nth-child(3){
-        text-align: center;
+        width: 27% !important;
+        text-align: left;
+    }
+    .assets table tbody tr td:nth-child(4), .assets table thead tr th:nth-child(4){
+        width: 10% !important;
+    }
+    .assets table tbody tr:hover{
+        background: none !important ;
+    }
+    .assets table tbody tr td:nth-child(5), .assets table thead tr th:nth-child(5){
+        text-align: end;
     }
     .assets table th, .assets table tbody tr td span{
         font-size: 10px !important;
