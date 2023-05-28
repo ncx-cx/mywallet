@@ -117,6 +117,7 @@ details summary::-webkit-details-marker {
         margin: 0 auto;
         margin-right: 0px;
         padding: 13px 0px;
+        position: relative;
     }
     .assets table tbody tr td:nth-child(5), .assets table thead tr th:nth-child(5){
         text-align: end;
