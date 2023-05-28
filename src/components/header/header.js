@@ -314,43 +314,53 @@ export default function Header() {
                           <div className="hgsw">
                             <img src={Svg.account} alt="ncx"/>
                           </div>
-                          <div className="resdf-fde">
+                          <a href="/profile_settings" className="resdf-fde">
                             <p>bilawal@ncx,cx</p>
                             <span>UID: 316593683900320481</span>
-                          </div>
+                          </a>
                         </div>
-                        <img className="log-out" src={Svg.logout} alt="ncx"/>
+                        <a className="sfvvsd" href="#"><img className="log-out" src={Svg.logout} alt="ncx"/></a>
                       </div>
-                      <Button className="mnbvc" href="#">Switch Account</Button>
+                      {/* <Button className="mnbvc" href="#">Switch Account</Button> */}
                       <li>
                         <details>
                           <summary>Assets
                               <span className='red'>
-                                  <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path d="M1.2657 0.850586C0.312684 0.850586 -0.19666 1.97304 0.430911 2.69023L5.33092 8.29028C5.9496 8.99735 7.04961 8.99735 7.6683 8.29028L12.5684 2.69023C13.1958 1.97304 12.6866 0.850586 11.7335 0.850586H1.2657Z" fill="white"/>
-                                  </svg>
+                                  <img src={Svg.dropdown} alt="ncx"/>
                               </span>
                           </summary>
                           <div className='contt'>
                               <ul>
-                                <li><a href="#">My Assets</a></li>
-                                <li><a href="#">Deposit</a></li>
-                                <li><a href="#">Withdraw</a></li>
-                                <li><a href="#">Transfer</a></li>
-                                <li><a href="#">Analysis</a></li>
-                                <li><a href="#">Order Center</a></li>
-                                <li><a href="#">My Trading Fees</a></li>
-                                <li><a href="#">Audits</a></li>
+                                <li><a href="/">My Assets</a></li>
+                                <li><a href="/deposit">Deposit</a></li>
+                                <li><a href="/withdraw">Withdraw</a></li>
+                                <li><a href="/">Asset History</a></li>
                               </ul>
                           </div>
                         </details>
                         <li><a href="#">Overview</a></li>
-                        <li><a href="#">Security</a></li>
-                        <li><a href="#">Verification</a></li>
-                        <li><a href="#">Preferences</a></li>
-                        <li><a href="#">Sub-accounts</a></li>
+                        <details>
+                          <summary>NCXT
+                              <span className='red'>
+                                  {/* <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M1.2657 0.850586C0.312684 0.850586 -0.19666 1.97304 0.430911 2.69023L5.33092 8.29028C5.9496 8.99735 7.04961 8.99735 7.6683 8.29028L12.5684 2.69023C13.1958 1.97304 12.6866 0.850586 11.7335 0.850586H1.2657Z" fill="white"/>
+                                  </svg> */}
+                                  <img src={Svg.dropdown} alt="ncx"/>
+                              </span>
+                          </summary>
+                          <div className='contt'>
+                              <ul>
+                                <li><a href="#">Presale Overview</a></li>
+                                <li><a href="/">Wallets</a></li>
+                                <li><a href="#">Transaction History</a></li>
+                                <li><a href="#">Referrals</a></li>
+                              </ul>
+                          </div>
+                        </details>
+                        <li><a href="/security">Security</a></li>
+                        <li><a href="/identification">Verification</a></li>
                         <li><a href="#">API Keys</a></li>
-                        <li><a href="#">Authorization</a></li>
+                        <li><a href="/profile_settings">Settings</a></li>
                       </li>
                     </ul>
                   </div>

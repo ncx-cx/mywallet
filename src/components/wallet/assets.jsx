@@ -30,6 +30,10 @@ function AssetsTable()
                         value={searchInput}
                     />
                 </label>
+                <div className="qwefv">
+                    <Button className="active" href="#">All</Button>
+                    <Button className="zero" href="#">Hide Zero Balance</Button>
+                </div>
             </div>
             <table id="token_table">
                 <thead>
@@ -65,8 +69,8 @@ function AssetsTable()
                             <div className="mobiel_dop">
                                 <img src={Svg.editdropdown} alt="ncx"/>
                                 <div className="sdfvdbb">
-                                    <Button href="/withdraw" className="wit">Withdraw</Button>
                                     <Button href="/deposit" className="wit">Deposit</Button>
+                                    <Button href="/withdraw" className="wit">Withdraw</Button>
                                     <Button href="#" className="wit">Trade</Button>
                                 </div>
                             </div>

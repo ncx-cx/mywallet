@@ -225,6 +225,15 @@ p.yrdf {
 .assets table {
     width: 100%;
 }
+.assets table thead {
+    display: block;
+    margin-bottom: 20px;
+}
+.assets table tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .assets table th {
     color: rgba(255,255,255,0.6);
     font-size: 14px;
@@ -249,21 +258,26 @@ td.wer h3{
     width: 20%;
     padding: 0px;
     height: inherit;
+    display: flex;
+    align-items: center;
+    height: fit-content;
 }
-.assets table thead tr th{
-    margin-bottom: 20px;
+.assets table tbody tr:hover {
+    background: #000000;
+    padding: 0px 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 0 hsla(0,0%,100%,.1);
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -1px;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    cursor: pointer;
 }
 .assets table tbody tr{
     height: 70px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     transition: all .3s;
-    position: relative;
-}
-.assets table tbody tr:hover{
-    margin-left: -10px;
-    margin-right: -10px;
-    cursor: pointer;
-    background: #000000;
 }
 .assets table tbody tr td p {
     font-size: 16px;
@@ -304,7 +318,7 @@ a.dpst {
     font-family: 'urbanist-regular';
 }
 .assets table tbody tr td:last-child, .assets table thead tr th:last-child{
-    text-align: end;
+    justify-content: flex-end;
 }
 table {
     border-collapse: collapse;
@@ -316,7 +330,10 @@ table {
     border-radius: 10px;
 }
 .search_bar {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .search_bar label{
     display: flex;
@@ -340,6 +357,28 @@ table {
 }
 .search_bar label img{
     width: 16px;
+}
+.qwefv{
+    display: flex;
+    gap: 8px;
+}
+.qwefv a.zero {
+    background: #1a1a1a;
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    font-family: 'urbanist-regular';
+    text-transform: capitalize;
+    padding: 0px 15px;
+    height: 32px;
+}
+.qwefv a.active{
+    background: #5ED3F0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'urbanist-regular';
+    text-transform: capitalize;
+    padding: 0px 25px;
+    height: 32px;
 }
 
 

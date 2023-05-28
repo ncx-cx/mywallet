@@ -83,7 +83,8 @@ details summary::-webkit-details-marker {
     }
     .Wallet-section .assets{
         margin-top: 3px;
-        padding: 25px 15px;
+        padding: 25px 5px;
+        background: transparent !important;
     }
     .assets table tbody tr td:nth-child(4), .assets table thead tr th:nth-child(4){
         display: none;
@@ -149,8 +150,11 @@ details summary::-webkit-details-marker {
     .assets table tbody tr td:nth-child(4), .assets table thead tr th:nth-child(4){
         width: 10% !important;
     }
-    .assets table tbody tr:hover{
+    body .assets table tbody tr:hover{
         background: none !important ;
+        margin: 0px !important;
+        padding: 0px !important;
+        box-shadow: none !important;
     }
     .assets table tbody tr td:nth-child(5), .assets table thead tr th:nth-child(5){
         text-align: end;
@@ -180,7 +184,8 @@ details summary::-webkit-details-marker {
         margin: 0 auto;
     }
     .uikw .hit-gsf{
-        padding: 30px 20px;
+        padding: 30px 5px;
+        background: transparent !important;
     }
     .uikw .unitf{
         margin-top: 0px !important;
@@ -891,5 +896,8 @@ details summary::-webkit-details-marker {
     }
     .insetus ul li{
         font-size: 12px !important;
+    }
+    .assets table tbody tr{
+        height: 65px !important;
     }
 }

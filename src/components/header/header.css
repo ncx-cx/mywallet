@@ -985,10 +985,21 @@ div#cxvb {
   }
   .resdf-fde p {
     font-size: 14px;
+    line-height: 19px;
     font-family: 'urbanist-regular';
+  }
+  a.sfvvsd {
+    width: unset !important;
+  }
+  a.resdf-fde {
+    width: unset !important;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
   }
   .resdf-fde span{
     font-size: 12px;
+    line-height: 16px;
     font-family: 'urbanist-regular';
     color: rgba(255, 255, 255, 0.6);
   }
