@@ -18,6 +18,8 @@ function AssetsTable()
       });
     }
 
+    const [showNumber, setShowNumber] = useState(false);
+
     return(
         <div className="assets">
             <div className="search_bar">
@@ -32,7 +34,7 @@ function AssetsTable()
                 </label>
                 <div className="qwefv">
                     <Button className="active" href="#">All</Button>
-                    <Button className="zero" href="#">Hide Zero Balance</Button>
+                    <p className="zero" onClick={() => setShowNumber(!showNumber)}>Hide Zero Balance</p>
                 </div>
             </div>
             <table id="token_table">
@@ -53,13 +55,13 @@ function AssetsTable()
                             <h3>{item.name}</h3>
                         </td>
                         <td>
-                            <p>{item.equity}</p>
+                            {!showNumber && <p>{item.equity}</p>}{showNumber && <p>********</p>}
                         </td>
                         <td>
-                            <p>{item.cash_balance}</p>
+                            {!showNumber && <p>{item.cash_balance}</p>}{showNumber && <p>********</p>}
                         </td>
                         <td>
-                            <p>{item.unsettled_pnl}</p>
+                            {!showNumber && <p>{item.unsettled_pnl}</p>}{showNumber && <p>********</p>}
                         </td>
                         <td className="ascdfwe">
                             <div className="dewr">

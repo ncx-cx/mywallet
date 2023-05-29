@@ -33,7 +33,7 @@
     gap: 10px;
     margin-top: 12px;
 }
-.tereg input.form-control{
+h1.wedc{
     background: none;
     border: none;
     color: #FFFFFF;
@@ -41,33 +41,15 @@
     max-width: 78px;
     padding: 0px;
     font-family: 'urbanist-medium';
-}
-.tereg input.form-control::placeholder{
-    color: #FFFFFF !important;
-}
-.tew {
-    display: flex;
-    align-items: center;
-    column-gap: 8px;
-}
-.wrg input {
-    background: none;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-family: 'urbanist-medium';
-    border: none;
-    padding: 0px;
-    max-width: 112px;
-}
-.tew h3 {
-    font-size: 18px;
-    font-family: 'urbanist-medium';
     font-weight: 400;
 }
-.wrg span {
+p.vbegv {
     color: #FFFFFF;
-    font-family: 'urbanist-medium';
     font-size: 18px;
+    font-family: 'urbanist-medium';
+}
+span.crncy {
+    padding-right: 4px !important;
 }
 a.treg {
     width: 100px;
@@ -362,7 +344,7 @@ table {
     display: flex;
     gap: 8px;
 }
-.qwefv a.zero {
+.qwefv p.zero {
     background: #1a1a1a;
     color: rgba(255,255,255,0.6);
     font-size: 14px;
@@ -370,6 +352,10 @@ table {
     text-transform: capitalize;
     padding: 0px 15px;
     height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 .qwefv a.active{
     background: #5ED3F0;
