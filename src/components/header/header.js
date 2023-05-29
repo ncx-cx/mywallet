@@ -159,13 +159,15 @@ export default function Header() {
                   <a id="mmjhyt" href="/profile_settings" className="accot"><img src={Svg.account} alt="ncx"/></a>
                   <div id="cxvb">
                     <div className="fsdvc">
-                      <a href="/profile_settings" className="mjhgf">
+                      <div className="mjhgf">
                         <p>bil***@ncx.cx</p>
                         <p>UID: <span>3001791</span></p>
-                      </a>
+                      </div>
+                      <a href="/profile_settings"><img src={Svg.security} alt="ncx"/>Profile/Settings</a>
                       <a href="/security"><img src={Svg.security} alt="ncx"/>Security</a>
                       <a href="/identification"><img src={Svg.verificationblack} alt="ncx"/>Verification</a>
                       <a href="#"><img src={Svg.api} alt="ncx"/>API</a>
+                      <a href="#"><img src={Svg.api} alt="ncx"/>NCXT</a>
                       <a href="#"><img src={Svg.invitefriends} alt="ncx"/>Invite Friends</a>
                       <a href="#"><img src={Svg.logoutblack} alt="ncx"/>Log out</a>
                     </div>

@@ -30,7 +30,7 @@ function WalletPage()
                                     className={toggleState === 1 ? "teeww active" : "teeww"}
                                     onClick={() => toggleTab(1)}
                                 >
-                                Unified Account
+                                Assets
                                 </button>
                                 <button
                                     className={toggleState === 2 ? "teeww active" : "teeww"}

@@ -573,6 +573,10 @@ div#cxvb {
   display: flex;
   flex-direction: column;
 }
+.mjhgf {
+  padding: 5px 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 .fsdvc a {
   color: #000000;
 }
