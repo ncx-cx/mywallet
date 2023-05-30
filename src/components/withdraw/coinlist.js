@@ -1,5 +1,6 @@
-import Svg from "../Svg";
-const assets = [
+import Svg from "../Svg"
+
+const coinlist = [
     {
         id: 1,
         name: "usdt",
@@ -613,4 +614,108 @@ const assets = [
         unsettled_pnl: "0.00000000",
     },
 ]
-export default assets;
+// const coinlist = [
+//     {
+//         id: 1,
+//         img: Svg.usdt,
+//         title: "USDT",
+//         desc: "Tether USD"
+//     },
+//     {
+//         id: 2,
+//         img: Svg.btc,
+//         title: "BTC",
+//         desc: "Bitcoin"
+//     },
+//     {
+//         id: 3,
+//         img: Svg.usdc,
+//         title: "USDC",
+//         desc: "USD Coin"
+//     },
+//     {
+//         id: 4,
+//         img: Svg.xrp,
+//         title: "XRP",
+//         desc: "Ripple"
+//     },
+//     {
+//         id: 5,
+//         img: Svg.ltc,
+//         title: "LTC",
+//         desc: "Litecoin"
+//     },
+//     {
+//         id: 6,
+//         img: Svg.busd,
+//         title: "BUSD",
+//         desc: "BUSD"
+//     },
+//     {
+//         id: 7,
+//         img: Svg.tusd,
+//         title: "TUSD",
+//         desc: "True USD"
+//     },
+//     {
+//         id: 8,
+//         img: Svg.pepe,
+//         title: "PEPE",
+//         desc: "Pepe"
+//     },
+//     {
+//         id: 9,
+//         img: Svg.gala,
+//         title: "GALA",
+//         desc: "Gala"
+//     },
+//     {
+//         id: 10,
+//         img: Svg.cfx,
+//         title: "CFX",
+//         desc: "Cfx"
+//     },
+//     {
+//         id: 11,
+//         img: Svg.arb,
+//         title: "ARB",
+//         desc: "Arb"
+//     },
+//     {
+//         id: 12,
+//         img: Svg.sand,
+//         title: "SAND",
+//         desc: "Sand"
+//     },
+//     {
+//         id: 13,
+//         img: Svg.ada,
+//         title: "ADA",
+//         desc: "Cardano"
+//     },
+//     {
+//         id: 14,
+//         img: Svg.bnb,
+//         title: "BNB",
+//         desc: "Binance Coin"
+//     },
+//     {
+//         id: 15,
+//         img: Svg.sol,
+//         title: "SOL",
+//         desc: "Solana"
+//     },
+//     {
+//         id: 16,
+//         img: Svg.sui,
+//         title: "SUI",
+//         desc: "Sui"
+//     },
+//     {
+//         id: 17,
+//         img: Svg.matic,
+//         title: "MATIC",
+//         desc: "Polygon"
+//     }
+// ]
+export default coinlist;

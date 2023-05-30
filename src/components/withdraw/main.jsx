@@ -1,6 +1,8 @@
 import React from "react";
 import Svg from "../Svg";
 import Button from '@mui/material/Button';
+import $ from 'jquery';
+import MAbarbs from'./dropdown';
 
 function WithdrawalScreen()
 {
@@ -20,14 +22,9 @@ function WithdrawalScreen()
                             <div className="plkm">
                                 <label>
                                     Token
-                                    <select>
-                                        <option>BTC</option>
-                                        <option>ETH</option>
-                                        <option>LTC</option>
-                                        <option>Doge</option>
-                                        <option>Dash</option>
-                                        <option>BNB</option>
-                                    </select>
+                                    <div className="fwef">
+                                        <MAbarbs />
+                                    </div>
                                 </label>
                             </div>
                         </div>
@@ -55,24 +52,13 @@ function WithdrawalScreen()
                                 <div className="ewrthg">
                                     <div className="aszz">
                                         <p>Amount</p>
-                                        <p>24h withdrawal limit: 1,000,000 USD (0 USD used)</p>
+                                        <p>Available Balance: 1,00.00 USD</p>
                                     </div>
                                     <input type="text" placeholder="Minimum 0.000055 BTC" />
                                 </div>
 
                                 <div className="code-q">
                                     <p>Fees: 0.001 BTC</p>
-                                </div>
-
-                                <div className="vervcd">
-                                    <div className='select_acount active'>
-                                        <input type='radio' />
-                                        <label>Unified Account</label>
-                                    </div>
-                                    <div className='select_acount'>
-                                        <input type='radio' />
-                                        <label>Matrixport Balance</label>
-                                    </div>
                                 </div>
 
                                 <div className="insetus">
@@ -103,3 +89,15 @@ function WithdrawalScreen()
     )
 }
 export default WithdrawalScreen;
+
+$("ul.list-unstyled").on("click", ".init", function() {
+    $(this).closest("ul.list-unstyled").children('li:not(.init)').toggle();
+});
+
+var allOptions = $("ul.list-unstyled").children('li:not(.init)');
+$("ul.list-unstyled").on("click", "li:not(.init)", function() {
+    allOptions.removeClass('selected');
+    $(this).addClass('selected');
+    $("ul.list-unstyled").children('.init').html($(this).html());
+    allOptions.toggle();
+});

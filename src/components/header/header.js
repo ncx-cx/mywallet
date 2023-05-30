@@ -163,11 +163,11 @@ export default function Header() {
                         <p>bil***@ncx.cx</p>
                         <p>UID: <span>3001791</span></p>
                       </div>
-                      <a href="/profile_settings"><img src={Svg.security} alt="ncx"/>Profile/Settings</a>
+                      <a href="/profile_settings"><img src={Svg.profile_settings} alt="ncx"/>Profile/Settings</a>
                       <a href="/security"><img src={Svg.security} alt="ncx"/>Security</a>
                       <a href="/identification"><img src={Svg.verificationblack} alt="ncx"/>Verification</a>
+                      <a href="#"><img src={Svg.nft} alt="ncx"/>NCXT</a>
                       <a href="#"><img src={Svg.api} alt="ncx"/>API</a>
-                      <a href="#"><img src={Svg.api} alt="ncx"/>NCXT</a>
                       <a href="#"><img src={Svg.invitefriends} alt="ncx"/>Invite Friends</a>
                       <a href="#"><img src={Svg.logoutblack} alt="ncx"/>Log out</a>
                     </div>
@@ -340,7 +340,7 @@ export default function Header() {
                               </ul>
                           </div>
                         </details>
-                        <li><a href="#">Overview</a></li>
+                        <li><a href="/profile_settings">Profile</a></li>
                         <details>
                           <summary>NCXT
                               <span className='red'>

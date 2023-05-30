@@ -115,6 +115,8 @@ import logoutblack from '../assets/images/svgs/logout-black.svg';
 import verificationblack from '../assets/images/svgs/verification-black.svg';
 import FAQicon from '../assets/images/svgs/faq-icon.svg';
 import editdropdown from '../assets/images/svgs/edit-dropdown.svg';
+import profile_settings from '../assets/images/svgs/profile_settings.svg';
+import nft from '../assets/images/svgs/nft.svg';
 
 const Svg = {
     inch,
@@ -231,7 +233,9 @@ const Svg = {
     logoutblack,
     verificationblack,
     FAQicon,
-    editdropdown
+    editdropdown,
+    profile_settings,
+    nft
 }
 
 export default Svg;

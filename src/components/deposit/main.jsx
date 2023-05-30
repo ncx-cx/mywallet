@@ -2,6 +2,7 @@ import React from "react";
 import Svg from "../Svg";
 import Png from "../Png";
 import ChangeAccount from '../../modals/change-account';
+import MAbarbs from '../withdraw/dropdown';
 
 function DepositScreen()
 {
@@ -21,14 +22,7 @@ function DepositScreen()
                             <div className="plkm">
                                 <label>
                                     Token
-                                    <select>
-                                        <option>BTC</option>
-                                        <option>ETH</option>
-                                        <option>LTC</option>
-                                        <option>Doge</option>
-                                        <option>Dash</option>
-                                        <option>BNB</option>
-                                    </select>
+                                    <MAbarbs />
                                 </label>
                             </div>
                         </div>

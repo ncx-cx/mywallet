@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Button from '@mui/material/Button';
-import assetsData from './data';
+import assetsData from '../withdraw/coinlist';
 import Svg from "../Svg";
 
 function AssetsTable()

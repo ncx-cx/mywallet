@@ -14,6 +14,7 @@
     gap: 10px;
     font-weight: 400;
     margin-top: 15px;
+    width: fit-content;
 }
 .qwerg .row {
     display: flex;
@@ -147,7 +148,7 @@
 }
 .insetus ul {
     padding-left: 10px;
-    margin-top: 25px !important;
+    margin-top: 0px !important;
 }
 .insetus ul li {
     font-family: 'urbanist-regular';
@@ -227,8 +228,32 @@ p.ssv {
     font-weight: 200;
     background: #5ED3F0;
     height: 45px;
-    opacity: 0.6;
 }
 .aS__v a:hover{
     border: 1px solid #5ED3F0;
+}
+p.bergbv, .asc p {
+    color: #FFFFFF;
+    font-size: 16px !important;
+    font-family: 'urbanist-medium';
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+}
+p.bergbv span {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'urbanist-regular';
+}
+img.wefcx, .asc img {
+    width: 24px;
+}
+li.vsdc:hover {
+    background: #1a1a1a;
+}
+.asc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
